@@ -3,7 +3,9 @@ import cgi, re
 home_rule_act = open("source_docs/home_rule_act_july2012.txt").read()
 
 home_rule_act = home_rule_act.decode("utf8")
-home_rule_act = home_rule_act.replace(u"\u000C", "\n")
+
+# recode page numbering
+home_rule_act = re.sub(u"(\d+)\n(\u000C)", u"\n [\u000C]\n ", home_rule_act) # brackets prevent para collapse
 
 # incorrect encoding of en-dashes
 home_rule_act = re.sub(r" B(\s)", ur" \u2013 \1", home_rule_act)
@@ -24,8 +26,8 @@ for line in home_rule_act.split("\n"):
 		paragraphs[-1] += " " + line
 
 # Extract front matter, through the Table of Contents
-main_start = paragraphs.index("TITLE I - SHORT TITLE, "
-			      "PURPOSES, AND DEFINITIONS ")	
+
+main_start = paragraphs.index('TITLE I - SHORT TITLE, PURPOSES, AND DEFINITIONS ')	
 front_paragraphs = paragraphs[:main_start]
 # Extract back matter, which starts with Organic and Amendment History
 back_start = paragraphs.index("DISTRICT OF COLUMBIA HOME RULE ACT")
@@ -68,6 +70,7 @@ paragraphs = [
 	  "text": p,
 	  "section_num": None,
 	  "dc_code_cite": None,
+	  "para_num": None,
 	} for p in paragraphs]
 
 cur_list_style_levels = { }
@@ -77,6 +80,9 @@ for p in paragraphs:
 		
 	section_head, dc_code_cite, paragraph_heads = m.groups()
 	
+	# chop off the section head and citation info
+	p["text"] = p["text"][len(m.group(0)):]
+	
 	# starts a new section
 	if section_head:
 		p["section_num"] = section_head
@@ -84,7 +90,7 @@ for p in paragraphs:
 		cur_list_style_levels = { }
 
 	if paragraph_heads:
-		#p['text'] += " " + repr(cur_list_style_levels)
+		p["para_num"] = paragraph_heads
 		
 		list_levels = re.findall(r"\((.*?)\)", paragraph_heads)
 		for i, ll in enumerate(list_levels):
@@ -127,7 +133,16 @@ for p in paragraphs:
 print open("front_matter.html").read()
 
 for p in paragraphs:
-	print ("<p style='margin-left: %dem'>" % (p['indent'] if p['indent'] else 0)) + cgi.escape(p["text"]).encode("utf8") + "</p>"
+	if p["text"] == u"[\u000C]":
+		print "<hr>"
+		continue
+	
+	print ("<p style='margin-left: %dem'>" % (p['indent'] if p['indent'] else 0))
+	if p["section_num"]: print "<strong>" + cgi.escape(p["section_num"]).encode("utf8") + "</strong>"
+	if p["dc_code_cite"]: print "<small>" + cgi.escape(p["dc_code_cite"]).encode("utf8") + "</small>"
+	if p["para_num"]: print "<strong>" + cgi.escape(p["para_num"]).encode("utf8") + "</strong>"
+	print cgi.escape(p["text"]).encode("utf8")
+	print "</p>"
 		
 print """
 	</body>
