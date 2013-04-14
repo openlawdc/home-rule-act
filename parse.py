@@ -145,6 +145,7 @@ for p in paragraphs:
 	print "</p>"
 
 print """
+        </div>
 	</body>
 </html>
 """
