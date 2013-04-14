@@ -1,4 +1,4 @@
-import cgi, re
+import cgi, re, sys
 
 home_rule_act = open("source_docs/home_rule_act_july2012.txt").read()
 
@@ -71,13 +71,33 @@ paragraphs = [
 	  "section_num": None,
 	  "dc_code_cite": None,
 	  "para_num": None,
+	  "title_num": None,
+	  "part_num": None,
+	  "subpart_num": None
 	} for p in paragraphs]
 
 cur_list_style_levels = { }
 for p in paragraphs:
 	m = re.match(r"(SEC\. \w+\. )?(\[D\.C\. (?:Official )?Code .*?\] )?((?:\(\S+\)\s*)*)", p["text"])
-	if not m: continue
-		
+
+	m_title = re.match(r"(TITLE\ \w+).*", p["text"])
+	try:
+		p["title_num"] = m_title.groups()[0]
+	except AttributeError:
+		pass
+
+	m_part = re.match(r"(PART\ \w+).*", p["text"])
+	try:
+		p["part_num"] = m_part.groups()[0]
+	except AttributeError:
+		pass
+
+	m_subpart = re.match(r"(Subpart\ \w+).*", p["text"])
+	try:
+		p["subpart_num"] = m_subpart.groups()[0]
+	except AttributeError:
+		pass
+
 	section_head, dc_code_cite, paragraph_heads = m.groups()
 	
 	# chop off the section head and citation info
