@@ -1,8 +1,28 @@
 body {
     max-width:600px;
     margin:0 auto;
+	padding: 2em;
 }
 
 .intro {
     text-align:center;
 }
+
+body, td {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 15px;
+	line-height: 21px;
+}
+
+strong {
+	font-size: 15px;
+}
+
+small {
+	font-family: 'Bubbler One', sans-serif;
+}
+
+h1 {
+	font-family: 'Maven Pro', sans-serif;
+}
+

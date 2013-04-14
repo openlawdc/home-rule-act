@@ -13,28 +13,26 @@ home_rule_act = re.sub(r" B(\s)", ur" \u2013 \1", home_rule_act)
 # incorrect encoding of section symbol
 home_rule_act = re.sub(r" Code '", u" Code \xa7", home_rule_act)
 
-front_paragraphs = []
-paragraphs = []
-back_paragraphs = []
-
 # combine lines into paragraphs
 paragraphs = []
 for line in home_rule_act.split("\n"):
-	if line.startswith(" "):
+	if len(paragraphs) > 0 and re.search(r"\w", line) and re.search(r"\w", paragraphs[-1]) and line == line.upper() and paragraphs[-1] == paragraphs[-1].upper():
+		# Collapse two all-caps lines in a row.
+		paragraphs[-1] += " " + line.strip()
+	elif line.startswith(" ") or line.strip() == "":
 		paragraphs.append(line.lstrip())
 	else:
 		paragraphs[-1] += " " + line
 
 # Extract front matter, through the Table of Contents
-
 main_start = paragraphs.index('TITLE I - SHORT TITLE, PURPOSES, AND DEFINITIONS ')
+main_start = paragraphs.index('TITLE I - SHORT TITLE, PURPOSES, AND DEFINITIONS')	
 front_paragraphs = paragraphs[:main_start]
 # Extract back matter, which starts with Organic and Amendment History
 back_start = paragraphs.index("DISTRICT OF COLUMBIA HOME RULE ACT")
 back_paragraphs = paragraphs[back_start:]
-
 # The remainder are main body paragraphs
-paragraphs = paragraphs[main_start:back_start]
+paragraphs = paragraphs[main_start:]
 
 # Process main body paragraphs
 
@@ -109,6 +107,8 @@ for p in paragraphs:
 		p["dc_code_cite"] = dc_code_cite
 		cur_list_style_levels = { }
 
+	# compute the proper indentation level of the paragraph based on the list style, i.e. are
+	# we going in a level (a) ... (1), or continuing a level (a) ... (b), or popping out  a level.
 	if paragraph_heads:
 		p["para_num"] = paragraph_heads
 
