@@ -13,28 +13,25 @@ home_rule_act = re.sub(r" B(\s)", ur" \u2013 \1", home_rule_act)
 # incorrect encoding of section symbol
 home_rule_act = re.sub(r" Code '", u" Code \xa7", home_rule_act)
 
-front_paragraphs = []
-paragraphs = []
-back_paragraphs = []
-
 # combine lines into paragraphs
 paragraphs = []
 for line in home_rule_act.split("\n"):
-	if line.startswith(" "):
+	if len(paragraphs) > 0 and re.search(r"\w", line) and re.search(r"\w", paragraphs[-1]) and line == line.upper() and paragraphs[-1] == paragraphs[-1].upper():
+		# Collapse two all-caps lines in a row.
+		paragraphs[-1] += " " + line.strip()
+	elif line.startswith(" ") or line.strip() == "":
 		paragraphs.append(line.lstrip())
 	else:
 		paragraphs[-1] += " " + line
 
 # Extract front matter, through the Table of Contents
-
-main_start = paragraphs.index('TITLE I - SHORT TITLE, PURPOSES, AND DEFINITIONS ')
+main_start = paragraphs.index('TITLE I - SHORT TITLE, PURPOSES, AND DEFINITIONS')	
 front_paragraphs = paragraphs[:main_start]
 # Extract back matter, which starts with Organic and Amendment History
 back_start = paragraphs.index("DISTRICT OF COLUMBIA HOME RULE ACT")
 back_paragraphs = paragraphs[back_start:]
-
 # The remainder are main body paragraphs
-paragraphs = paragraphs[main_start:back_start]
+paragraphs = paragraphs[main_start:]
 
 # Process main body paragraphs
 
@@ -71,12 +68,32 @@ paragraphs = [
 	  "section_num": None,
 	  "dc_code_cite": None,
 	  "para_num": None,
+	  "title_num": None,
+	  "part_num": None,
+	  "subpart_num": None
 	} for p in paragraphs]
 
 cur_list_style_levels = { }
 for p in paragraphs:
 	m = re.match(r"(SEC\. \w+\. )?(\[D\.C\. (?:Official )?Code .*?\] )?((?:\(\S+\)\s*)*)", p["text"])
-	if not m: continue
+
+	m_title = re.match(r"(TITLE\ \w+).*", p["text"])
+	try:
+		p["title_num"] = m_title.groups()[0]
+	except AttributeError:
+		pass
+
+	m_part = re.match(r"(PART\ \w+).*", p["text"])
+	try:
+		p["part_num"] = m_part.groups()[0]
+	except AttributeError:
+		pass
+
+	m_subpart = re.match(r"(Subpart\ \w+).*", p["text"])
+	try:
+		p["subpart_num"] = m_subpart.groups()[0]
+	except AttributeError:
+		pass
 
 	section_head, dc_code_cite, paragraph_heads = m.groups()
 
@@ -89,6 +106,8 @@ for p in paragraphs:
 		p["dc_code_cite"] = dc_code_cite
 		cur_list_style_levels = { }
 
+	# compute the proper indentation level of the paragraph based on the list style, i.e. are
+	# we going in a level (a) ... (1), or continuing a level (a) ... (b), or popping out  a level.
 	if paragraph_heads:
 		p["para_num"] = paragraph_heads
 
@@ -136,13 +155,20 @@ for p in paragraphs:
 	if p["text"] == u"[\u000C]":
 		print "<hr>"
 		continue
-
-	print ("<p style='margin-left: %dem'>" % (p['indent'] if p['indent'] else 0))
-	if p["section_num"]: print "<strong>" + cgi.escape(p["section_num"]).encode("utf8") + "</strong>"
-	if p["dc_code_cite"]: print "<small>" + cgi.escape(p["dc_code_cite"]).encode("utf8") + "</small>"
-	if p["para_num"]: print "<strong>" + cgi.escape(p["para_num"]).encode("utf8") + "</strong>"
-	print cgi.escape(p["text"]).encode("utf8")
-	print "</p>"
+		
+	if p["title_num"]:
+		print "<h2>" + cgi.escape(p["text"]).encode("utf8") + "</h2>"
+	elif p["part_num"]:
+		print "<h3>" + cgi.escape(p["text"]).encode("utf8") + "</h3>"
+	elif p["subpart_num"]:
+		print "<h4>" + cgi.escape(p["text"]).encode("utf8") + "</h4>"
+	else:
+		print ("<p style='margin-left: %dem'>" % (p['indent'] if p['indent'] else 0))
+		if p["section_num"]: print "<strong>" + cgi.escape(p["section_num"]).encode("utf8") + "</strong>"
+		if p["dc_code_cite"]: print "<small>" + cgi.escape(p["dc_code_cite"]).encode("utf8") + "</small>"
+		if p["para_num"]: print "<strong>" + cgi.escape(p["para_num"]).encode("utf8") + "</strong>"
+		print cgi.escape(p["text"]).encode("utf8")
+		print "</p>"
 
 print """
         </div>
