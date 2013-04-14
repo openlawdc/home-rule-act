@@ -1,6 +1,14 @@
 body {
+    margin:50px;
+    background:#ddd;
+}
+
+.container {
     max-width:600px;
-    margin:0 auto;
+    margin:20px auto;
+    padding:20px;
+    background:#fff;
+    border:1px solid #222;
 }
 
 .intro {
