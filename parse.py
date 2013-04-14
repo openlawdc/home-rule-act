@@ -1,4 +1,4 @@
-import cgi, re, sys
+import cgi, re
 
 home_rule_act = open("source_docs/home_rule_act_july2012.txt").read()
 
