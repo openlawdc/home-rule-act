@@ -124,102 +124,7 @@ for p in paragraphs:
 				if not section_head and i == 0:
 					p["indent"] = n
 		
-print u"""
-<html>
-	<head>
-		<title>District of Columbia Home Rule Act</title>
-		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
-
-		<style>
-			body {
-				font-family: sans-serif;
-				font-size: 14px;
-				line-height: 19px;
-				max-width: 50em;
-				padding: 2em;
-			}
-		</style>
-	</head>
-	<body>
-	
-<center>
-<h1>District of Columbia Home Rule Act</h1>
-<p>(AMENDED THROUGH July 18, 2012)</p>
-
-<p>Public Law 93-198; 87 Stat. 774<br/>
-D.C. Official Code \xa7 1-201.01 et seq.<br/>
-Approved December 24, 1973</p>
-
-
-<p>Prepared by</p>
-<p>Office of the General Counsel</p>
-<p>Council of the District of Columbia</p>
-<p>Suite 4</p>
-<p>1350 Pennsylvania Street, N.W.</p>
-<p>Washington, D.C. 20004</p>
-<p>(202) 724-8026</p>
-
-
-                                         Revised July 23, 2012
-       This document depicts the District of Columbia Home Rule Act
-    as enacted by the Congress in December, 1973, and amended through
-   May 30, 2011, the date of the last congressional amendment before the
-printing of this document. The text of the Act is in the original format as en-
-  acted and amended. Where the Office of the General Counsel has added
-       brief annotations to the text, those annotations appear in brackets.
-
-        Provisions of the District of Columbia Home Rule Act that
-     amend other acts are not included in this document except for those
-      amendatory provisions found in Title IV (The District Charter).
-
-
-
-
-              This document has been updated for printing on:
-
-                             February 18, 2010
-                               July 17, 2009
-                             November 3, 2008
-                               June 6, 2007
-                               April 1, 2005
-                                July 7, 2004
-                              October 5, 2001
-                             January 28, 1999
-                             February 24, 1998
-
-                                                          8.18.10
-             COUNCIL OF THE DISTRICT OF
-                     COLUMBIA
-
-
-                  Phil Mendelson, Chairman
-
-Yvette M. Alexander                       Jack Evans
-Marion Barry                              Jim Graham
-Muriel Bowser                             Kenyan McDuffie
-Michael A. Brown                          Vincent B. Orange, Sr.
-David A. Catania                          Tommy Wells
-Mary M. Cheh
-
-
-
-
-          OFFICE OF THE GENERAL COUNSEL
-
-                 Under Whose Direction This
-                 Document Has Been Prepared
-
-             V. David Zvenyach, General Counsel
-              John Hoellen, Legislative Counsel
-            Benjamin Bryant, Codification Counsel
-         Katherine Westcott, Assistant General Counsel
-          Melissa Tucker, Assistant General Counsel
-         Manasi Venkatesh, Assistant General Counsel
-            Karen R. Barbour, Legislative Assistant
-                   Ada Arrington, Secretary
-
-	
-""".encode("utf8")
+print open("front_matter.html").read()
 
 for p in paragraphs:
 	print ("<p style='margin-left: %dem'>" % (p['indent'] if p['indent'] else 0)) + cgi.escape(p["text"]).encode("utf8") + "</p>"
