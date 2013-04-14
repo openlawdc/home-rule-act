@@ -25,7 +25,6 @@ for line in home_rule_act.split("\n"):
 		paragraphs[-1] += " " + line
 
 # Extract front matter, through the Table of Contents
-main_start = paragraphs.index('TITLE I - SHORT TITLE, PURPOSES, AND DEFINITIONS ')
 main_start = paragraphs.index('TITLE I - SHORT TITLE, PURPOSES, AND DEFINITIONS')	
 front_paragraphs = paragraphs[:main_start]
 # Extract back matter, which starts with Organic and Amendment History
@@ -156,13 +155,20 @@ for p in paragraphs:
 	if p["text"] == u"[\u000C]":
 		print "<hr>"
 		continue
-
-	print ("<p style='margin-left: %dem'>" % (p['indent'] if p['indent'] else 0))
-	if p["section_num"]: print "<strong>" + cgi.escape(p["section_num"]).encode("utf8") + "</strong>"
-	if p["dc_code_cite"]: print "<small>" + cgi.escape(p["dc_code_cite"]).encode("utf8") + "</small>"
-	if p["para_num"]: print "<strong>" + cgi.escape(p["para_num"]).encode("utf8") + "</strong>"
-	print cgi.escape(p["text"]).encode("utf8")
-	print "</p>"
+		
+	if p["title_num"]:
+		print "<h2>" + cgi.escape(p["text"]).encode("utf8") + "</h2>"
+	elif p["part_num"]:
+		print "<h3>" + cgi.escape(p["text"]).encode("utf8") + "</h3>"
+	elif p["subpart_num"]:
+		print "<h4>" + cgi.escape(p["text"]).encode("utf8") + "</h4>"
+	else:
+		print ("<p style='margin-left: %dem'>" % (p['indent'] if p['indent'] else 0))
+		if p["section_num"]: print "<strong>" + cgi.escape(p["section_num"]).encode("utf8") + "</strong>"
+		if p["dc_code_cite"]: print "<small>" + cgi.escape(p["dc_code_cite"]).encode("utf8") + "</small>"
+		if p["para_num"]: print "<strong>" + cgi.escape(p["para_num"]).encode("utf8") + "</strong>"
+		print cgi.escape(p["text"]).encode("utf8")
+		print "</p>"
 
 print """
         </div>
