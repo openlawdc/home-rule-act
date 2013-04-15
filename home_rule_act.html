@@ -15,13 +15,16 @@
         		// Get context at window top.
         		var t = $(window).scrollTop();
         		var context = [null, null, null];
+        		var dontshow = false;
         		
         		$('h2,h3,h4').each(function() {
-        			if ($(this).offset().top < t) {
+        			if ($(this).offset().top + $(this).height() < t) {
         				var lvl = parseInt(this.tagName.substring(1))-2; // H2,H3,H4 => 0,1,2
         				context[lvl] = $(this).text();
         				for (var i = lvl+1; i < 4; i++) // clear levels within until we encounter them
         					context[i] = null;
+        			} else if ($(this).offset().top < t+$('#context').height()*1.2) {
+        				dontshow = true;
         			}
         		});
         		
@@ -29,7 +32,7 @@
         		if (!($('#context').css( 'position' ) === 'fixed'))
         			$('#context').css({ position: 'absolute', top: t }); // should not do if fixed is supported
         			
-        		if (!context[0]) {
+        		if (!context[0] || dontshow) {
         			$('#context').fadeOut();
         		} else {
         			function trim(txt) {
@@ -136,6 +139,40 @@ printing of this document. The text of the Act is in the original format as enac
 <hr>
 
 
+<h2>Table of Contents</h2>
+<div id='toc'>
+<p style='margin-left: 0em'><a href='#TITLE I'>TITLE I - SHORT TITLE, PURPOSES, AND DEFINITIONS</a></a>
+<p style='margin-left: 0em'><a href='#TITLE II'>TITLE II -- GOVERNMENTAL REORGANIZATION</a></a>
+<p style='margin-left: 0em'><a href='#TITLE III'>TITLE III -- DISTRICT CHARTER PREAMBLE, LEGISLATIVE POWER, AND CHARTER AMENDING PROCEDURE</a></a>
+<p style='margin-left: 0em'><a href='#TITLE IV'>TITLE IV -- THE DISTRICT CHARTER</a></a>
+<p style='margin-left: 1em'><a href='#TITLE IV--PART A'>PART A -- THE COUNCIL</a></a>
+<p style='margin-left: 2em'><a href='#TITLE IV--PART A--Subpart 1'>Subpart 1 -- Creation of the Council</a></a>
+<p style='margin-left: 2em'><a href='#TITLE IV--PART A--Subpart 2'>Subpart 2 -- Organization and Procedure of the Council</a></a>
+<p style='margin-left: 1em'><a href='#TITLE IV--PART B'>PART B- THE MAYOR</a></a>
+<p style='margin-left: 1em'><a href='#TITLE IV--PART C'>PART C -- THE JUDICIARY</a></a>
+<p style='margin-left: 1em'><a href='#TITLE IV--PART C'>PART C-i -- THE ATTORNEY GENERAL</a></a>
+<p style='margin-left: 1em'><a href='#TITLE IV--PART D'>PART D -- DISTRICT BUDGET AND FINANCIAL MANAGEMENT</a></a>
+<p style='margin-left: 2em'><a href='#TITLE IV--PART D--Subpart 1'>Subpart 1 -- Budget and Financial Management</a></a>
+<p style='margin-left: 2em'><a href='#TITLE IV--PART D--Subpart 2'>Subpart 2 -- Audit</a></a>
+<p style='margin-left: 1em'><a href='#TITLE IV--PART E'>PART E -- BORROWING</a></a>
+<p style='margin-left: 2em'><a href='#TITLE IV--PART E--Subpart 1'>Subpart 1 -- Borrowing</a></a>
+<p style='margin-left: 2em'><a href='#TITLE IV--PART E--Subpart 2'>Subpart 2 -- Short-Term Borrowing</a></a>
+<p style='margin-left: 2em'><a href='#TITLE IV--PART E--Subpart 3'>Subpart 3 -- Payment of Bonds and Notes</a></a>
+<p style='margin-left: 2em'><a href='#TITLE IV--PART E--Subpart 4'>Subpart 4 -- Full Faith and Credit of the Unites States</a></a>
+<p style='margin-left: 2em'><a href='#TITLE IV--PART E--Subpart 5'>Subpart 5 -- Tax Exemptions; Legal Investment; Water Pollution;</a></a>
+<p style='margin-left: 1em'><a href='#TITLE IV--PART F'>PART F -- INDEPENDENT AGENCIES AND AUTHORITIES</a></a>
+<p style='margin-left: 0em'><a href='#TITLE V'>TITLE V -- FEDERAL PAYMENT [Repealed]</a></a>
+<p style='margin-left: 0em'><a href='#TITLE VI'>TITLE VI -- RESERVATION OF CONGRESSIONAL AUTHORITY</a></a>
+<p style='margin-left: 0em'><a href='#TITLE VII'>TITLE VII -- REFERENDUM; SUCCESSION IN GOVERNMENT; TEMPORARY PROVISIONS; MISCELLANEOUS; AMENDMENTS TO DISTRICT OF COLUMBIA ELECTION ACT; RULES OF CONSTRUCTION; AND EFFECTIVE DATES</a></a>
+<p style='margin-left: 1em'><a href='#TITLE VII--PART A'>PART A -- CHARTER REFERENDUM</a></a>
+<p style='margin-left: 1em'><a href='#TITLE VII--PART C'>PART C -- TEMPORARY PROVISIONS</a></a>
+<p style='margin-left: 1em'><a href='#TITLE VII--PART D'>PART D -- MISCELLANEOUS</a></a>
+<p style='margin-left: 1em'><a href='#TITLE VII--PART E'>PART E -- AMENDMENTS TO THE DISTRICT OF COLUMBIA ELECTION ACT</a></a>
+<p style='margin-left: 1em'><a href='#TITLE VII--PART F'>PART F -- RULES OF CONSTRUCTION</a></a>
+<p style='margin-left: 1em'><a href='#TITLE VII--PART G'>PART G -- EFFECTIVE DATES</a></a>
+</div>
+<hr>
+<a name='TITLE I'> </a>
 <h2>TITLE I - SHORT TITLE, PURPOSES, AND DEFINITIONS</h2>
 <p style='margin-left: 0em'>
 
@@ -269,6 +306,7 @@ The term "budget" means the entire request for appropriations or loan or spendin
 <p style='margin-left: 0em'>
 
 </p>
+<a name='TITLE II'> </a>
 <h2>TITLE II -- GOVERNMENTAL REORGANIZATION</h2>
 <p style='margin-left: 0em'>
 
@@ -384,6 +422,7 @@ Any employee in the competitive service of the United States transferred to the 
 <p style='margin-left: 0em'>
 
 </p>
+<a name='TITLE III'> </a>
 <h2>TITLE III -- DISTRICT CHARTER PREAMBLE, LEGISLATIVE POWER, AND CHARTER AMENDING PROCEDURE</h2>
 <p style='margin-left: 0em'>
 
@@ -453,14 +492,17 @@ The amending procedure provided in this section may not be used to enact any law
 <p style='margin-left: 0em'>
 
 </p>
+<a name='TITLE IV'> </a>
 <h2>TITLE IV -- THE DISTRICT CHARTER</h2>
 <p style='margin-left: 0em'>
 
 </p>
+<a name='TITLE IV--PART A'> </a>
 <h3>PART A -- THE COUNCIL</h3>
 <p style='margin-left: 0em'>
 
 </p>
+<a name='TITLE IV--PART A--Subpart 1'> </a>
 <h4>Subpart 1 -- Creation of the Council</h4>
 <p style='margin-left: 0em'>
 
@@ -612,6 +654,7 @@ In the case of any budget act adopted by the Council pursuant to section 446 [D.
 <p style='margin-left: 0em'>
 
 </p>
+<a name='TITLE IV--PART A--Subpart 2'> </a>
 <h4>Subpart 2 -- Organization and Procedure of the Council</h4>
 <p style='margin-left: 0em'>
 
@@ -694,6 +737,7 @@ In case of contumacy by, or refusal to obey a subpoena issued to, any person, th
 
 </p>
 <hr>
+<a name='TITLE IV--PART B'> </a>
 <h3>PART B- THE MAYOR</h3>
 <p style='margin-left: 0em'>
 
@@ -1384,6 +1428,7 @@ procurement of goods and services for the Office of the Chief Financial Officer 
 <p style='margin-left: 0em'>
 
 </p>
+<a name='TITLE IV--PART C'> </a>
 <h3>PART C -- THE JUDICIARY</h3>
 <p style='margin-left: 0em'>
 
@@ -1746,6 +1791,7 @@ under this subsection shall be made public by the Judicial Nomination Commission
 <p style='margin-left: 0em'>
 
 </p>
+<a name='TITLE IV--PART C'> </a>
 <h3>PART C-i -- THE ATTORNEY GENERAL</h3>
 <p style='margin-left: 0em'>
 
@@ -1785,10 +1831,12 @@ The first election for the position of Attorney General shall be after January 1
 <p style='margin-left: 0em'>
 
 </p>
+<a name='TITLE IV--PART D'> </a>
 <h3>PART D -- DISTRICT BUDGET AND FINANCIAL MANAGEMENT</h3>
 <p style='margin-left: 0em'>
 
 </p>
+<a name='TITLE IV--PART D--Subpart 1'> </a>
 <h4>Subpart 1 -- Budget and Financial Management</h4>
 <p style='margin-left: 0em'>
 
@@ -2687,6 +2735,7 @@ Subsection (a) [of this section] shall not apply to amounts appropriated or othe
 <p style='margin-left: 0em'>
 
 </p>
+<a name='TITLE IV--PART D--Subpart 2'> </a>
 <h4>Subpart 2 -- Audit</h4>
 <p style='margin-left: 0em'>
 
@@ -2910,10 +2959,12 @@ In the case of any report submitted by the Mayor under this section for a fiscal
 
 </p>
 <hr>
+<a name='TITLE IV--PART E'> </a>
 <h3>PART E -- BORROWING</h3>
 <p style='margin-left: 0em'>
 
 </p>
+<a name='TITLE IV--PART E--Subpart 1'> </a>
 <h4>Subpart 1 -- Borrowing</h4>
 <p style='margin-left: 0em'>
 
@@ -3220,6 +3271,7 @@ OBLIGATIONS AND EXPENDITURES NOT SUBJECT TO APPROPRIATION. --The 4th sentence of
 
 </p>
 <hr>
+<a name='TITLE IV--PART E--Subpart 2'> </a>
 <h4>Subpart 2 -- Short-Term Borrowing</h4>
 <p style='margin-left: 0em'>
 
@@ -3391,6 +3443,7 @@ PAYMENT NOT SUBJECT TO APPROPRIATION. -- The fourth sentence of [section] 446 [D
 <p style='margin-left: 0em'>
 
 </p>
+<a name='TITLE IV--PART E--Subpart 3'> </a>
 <h4>Subpart 3 -- Payment of Bonds and Notes</h4>
 <p style='margin-left: 0em'>
 
@@ -3478,6 +3531,7 @@ Any amount obligated or expended by the Mayor pursuant to subsection (b) or (c) 
 <p style='margin-left: 0em'>
 
 </p>
+<a name='TITLE IV--PART E--Subpart 4'> </a>
 <h4>Subpart 4 -- Full Faith and Credit of the Unites States</h4>
 <p style='margin-left: 0em'>
 
@@ -3496,6 +3550,7 @@ The full faith and credit of the United States is not pledged for the payment of
 <p style='margin-left: 0em'>
 
 </p>
+<a name='TITLE IV--PART E--Subpart 5'> </a>
 <h4>Subpart 5 -- Tax Exemptions; Legal Investment; Water Pollution;</h4>
 <p style='margin-left: 0em'>
 Reservoirs; Metro Contributions; and Revenue Bonds
@@ -3915,6 +3970,7 @@ The term "tax increments" means taxes, other than the special tax provided for i
 <p style='margin-left: 0em'>
 
 </p>
+<a name='TITLE IV--PART F'> </a>
 <h3>PART F -- INDEPENDENT AGENCIES AND AUTHORITIES</h3>
 <p style='margin-left: 0em'>
 
@@ -4171,6 +4227,7 @@ Sec. 5. [D.C. Official Code § 1-204.115] [Adoption of acts to carry out subchap
 <p style='margin-left: 0em'>
 
 </p>
+<a name='TITLE V'> </a>
 <h2>TITLE V -- FEDERAL PAYMENT [Repealed]</h2>
 <p style='margin-left: 0em'>
 
@@ -4195,6 +4252,7 @@ DUTIES OF THE MAYOR, COUNCIL, AND FEDERAL OFFICE OF MANAGEMENT AND BUDGET
 <p style='margin-left: 0em'>
 
 </p>
+<a name='TITLE VI'> </a>
 <h2>TITLE VI -- RESERVATION OF CONGRESSIONAL AUTHORITY</h2>
 <p style='margin-left: 0em'>
 
@@ -4466,10 +4524,12 @@ Appeals from the decisions of the chair relating to the application of the rules
 <p style='margin-left: 0em'>
 
 </p>
+<a name='TITLE VII'> </a>
 <h2>TITLE VII -- REFERENDUM; SUCCESSION IN GOVERNMENT; TEMPORARY PROVISIONS; MISCELLANEOUS; AMENDMENTS TO DISTRICT OF COLUMBIA ELECTION ACT; RULES OF CONSTRUCTION; AND EFFECTIVE DATES</h2>
 <p style='margin-left: 0em'>
 
 </p>
+<a name='TITLE VII--PART A'> </a>
 <h3>PART A -- CHARTER REFERENDUM</h3>
 <p style='margin-left: 0em'>
 
@@ -4788,6 +4848,7 @@ The term of any member elected to the District of Columbia Board of Education, a
 <p style='margin-left: 0em'>
 
 </p>
+<a name='TITLE VII--PART C'> </a>
 <h3>PART C -- TEMPORARY PROVISIONS</h3>
 <p style='margin-left: 0em'>
 
@@ -4895,6 +4956,7 @@ The provisions of this section shall terminate as of January 2, 1975.
 <p style='margin-left: 0em'>
 
 </p>
+<a name='TITLE VII--PART D'> </a>
 <h3>PART D -- MISCELLANEOUS</h3>
 <p style='margin-left: 0em'>
 
@@ -5595,6 +5657,7 @@ A written transcript or a transcription shall be kept for all such meetings and 
 <p style='margin-left: 0em'>
 
 </p>
+<a name='TITLE VII--PART E'> </a>
 <h3>PART E -- AMENDMENTS TO THE DISTRICT OF COLUMBIA ELECTION ACT</h3>
 <p style='margin-left: 0em'>
 
@@ -5626,6 +5689,7 @@ Notwithstanding any other provision of this Act or of any other law, the Council
 <p style='margin-left: 0em'>
 
 </p>
+<a name='TITLE VII--PART F'> </a>
 <h3>PART F -- RULES OF CONSTRUCTION</h3>
 <p style='margin-left: 0em'>
 
@@ -5658,6 +5722,7 @@ If any particular provision of this Act, or the application thereof to any perso
 <p style='margin-left: 0em'>
 
 </p>
+<a name='TITLE VII--PART G'> </a>
 <h3>PART G -- EFFECTIVE DATES</h3>
 <p style='margin-left: 0em'>
 

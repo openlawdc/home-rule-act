@@ -15,13 +15,16 @@
         		// Get context at window top.
         		var t = $(window).scrollTop();
         		var context = [null, null, null];
+        		var dontshow = false;
         		
         		$('h2,h3,h4').each(function() {
-        			if ($(this).offset().top < t) {
+        			if ($(this).offset().top + $(this).height() < t) {
         				var lvl = parseInt(this.tagName.substring(1))-2; // H2,H3,H4 => 0,1,2
         				context[lvl] = $(this).text();
         				for (var i = lvl+1; i < 4; i++) // clear levels within until we encounter them
         					context[i] = null;
+        			} else if ($(this).offset().top < t+$('#context').height()*1.2) {
+        				dontshow = true;
         			}
         		});
         		
@@ -29,7 +32,7 @@
         		if (!($('#context').css( 'position' ) === 'fixed'))
         			$('#context').css({ position: 'absolute', top: t }); // should not do if fixed is supported
         			
-        		if (!context[0]) {
+        		if (!context[0] || dontshow) {
         			$('#context').fadeOut();
         		} else {
         			function trim(txt) {

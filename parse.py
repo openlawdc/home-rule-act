@@ -74,24 +74,30 @@ paragraphs = [
 	} for p in paragraphs]
 
 cur_list_style_levels = { }
+super_structure = { }
 for p in paragraphs:
 	m = re.match(r"(SEC\. \w+\. )?(\[D\.C\. (?:Official )?Code .*?\] )?((?:\(\S+\)\s*)*)", p["text"])
 
 	m_title = re.match(r"(TITLE\ \w+).*", p["text"])
 	try:
 		p["title_num"] = m_title.groups()[0]
+		super_structure["title"] = p["title_num"]
+		p["ref"] = (super_structure["title"],)
 	except AttributeError:
 		pass
 
 	m_part = re.match(r"(PART\ \w+).*", p["text"])
 	try:
 		p["part_num"] = m_part.groups()[0]
+		super_structure["part"] = p["part_num"]
+		p["ref"] = (super_structure["title"], super_structure["part"])
 	except AttributeError:
 		pass
 
 	m_subpart = re.match(r"(Subpart\ \w+).*", p["text"])
 	try:
 		p["subpart_num"] = m_subpart.groups()[0]
+		p["ref"] = (super_structure["title"], super_structure["part"], p["subpart_num"])
 	except AttributeError:
 		pass
 
@@ -151,10 +157,35 @@ for p in paragraphs:
 
 print open("front_matter.html").read()
 
+print "<h2>Table of Contents</h2>"
+print "<div id='toc'>"
+for p in paragraphs:
+	if "ref" in p:
+		ref = "--".join(p["ref"])
+		ref = cgi.escape(ref).encode("utf8")
+		
+		if p["title_num"]:
+			indent = 0
+		elif p["part_num"]:
+			indent = 1
+		elif p["subpart_num"]:
+			indent = 2
+			
+		print ("<p style='margin-left: %dem'><a href='#" % indent) + ref + "'>" + cgi.escape(p["text"]).encode("utf8") + "</a></a>"
+
+print "</div>"
+
+print "<hr>"
+
 for p in paragraphs:
 	if p["text"] == u"[\u000C]":
 		print "<hr>"
 		continue
+		
+	if "ref" in p:
+		ref = "--".join(p["ref"])
+		ref = cgi.escape(ref).encode("utf8")
+		print "<a name='" + ref + "'> </a>"
 		
 	if p["title_num"]:
 		print "<h2>" + cgi.escape(p["text"]).encode("utf8") + "</h2>"
