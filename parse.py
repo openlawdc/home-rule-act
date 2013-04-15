@@ -28,10 +28,10 @@ for line in home_rule_act.split("\n"):
 main_start = paragraphs.index('TITLE I - SHORT TITLE, PURPOSES, AND DEFINITIONS')	
 front_paragraphs = paragraphs[:main_start]
 # Extract back matter, which starts with Organic and Amendment History
-back_start = paragraphs.index("DISTRICT OF COLUMBIA HOME RULE ACT")
+back_start = paragraphs.index("DISTRICT OF COLUMBIA HOME RULE ACT ORGANIC AND AMENDATORY HISTORY")
 back_paragraphs = paragraphs[back_start:]
 # The remainder are main body paragraphs
-paragraphs = paragraphs[main_start:]
+paragraphs = paragraphs[main_start:back_start]
 
 # Process main body paragraphs
 
