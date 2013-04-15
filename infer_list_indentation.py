@@ -83,7 +83,7 @@ def infer_list_indentation(
 			return [(0, level_class, symbol_list[0])]
 		else:
 			# Recursive call.
-			return (0, 2, 2, level_class, None, None)
+			return (base_score, 2, 2, level_class, None, None)
 			
 	if symbol_list == []: raise ValueError()
 
