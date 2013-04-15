@@ -9,6 +9,10 @@ body {
 	padding-top: 2em;
 }
 
+a, a:visited {
+	color: #22aa44;
+}
+
 .intro {
     text-align:center;
 }
