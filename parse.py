@@ -35,35 +35,8 @@ paragraphs = paragraphs[main_start:back_start]
 
 # Process main body paragraphs
 
-# infer with-section list hierarchy
-
-def get_list_level_type(text):
-	initial_level_type_res = [
-		r'A',
-		r'1',
-		r'a',
-		r'i',
-	]
-	noninitial_level_type_res = [
-		r'[A-Z]+',
-		r'[0-9]+[A-Za-z]*',
-		r'[a-z]+',
-		r'[xvi]+',
-	]
-
-	initial_levels = set(i for i, r in enumerate(initial_level_type_res) if re.match(r+"$", text))
-	noninitial_levels = set(i for i, r in enumerate(noninitial_level_type_res) if re.match(r+"$", text)) - initial_levels
-
-	return initial_levels, noninitial_levels
-
-list_level_must_follow = {
-	(2, 'i'): 'h',
-	(2, 'ii'): 'ih',
-	(2, 'iii'): 'iih',
-}
-
 paragraphs = [
-	{ "indent": None,
+	{ "indent": 0,
 	  "text": p,
 	  "section_num": None,
 	  "dc_code_cite": None,
@@ -73,10 +46,9 @@ paragraphs = [
 	  "subpart_num": None
 	} for p in paragraphs]
 
-cur_list_style_levels = { }
 super_structure = { }
 for p in paragraphs:
-	m = re.match(r"(SEC\. \w+\. )?(\[D\.C\. (?:Official )?Code .*?\] )?((?:\(\S+\)\s*)*)", p["text"])
+	m = re.match(r"(SEC\. \w+\.? )?(\[D\.C\. (?:Official )?Code [^\]]*\]\.? )?((?:\(\S+\)\s*)*)", p["text"], re.I)
 
 	m_title = re.match(r"(TITLE\ \w+).*", p["text"])
 	try:
@@ -110,50 +82,40 @@ for p in paragraphs:
 	if section_head:
 		p["section_num"] = section_head
 		p["dc_code_cite"] = dc_code_cite
-		cur_list_style_levels = { }
 
-	# compute the proper indentation level of the paragraph based on the list style, i.e. are
-	# we going in a level (a) ... (1), or continuing a level (a) ... (b), or popping out  a level.
 	if paragraph_heads:
 		p["para_num"] = paragraph_heads
 
-		list_levels = re.findall(r"\((.*?)\)", paragraph_heads)
-		for i, ll in enumerate(list_levels):
-			initial_levels, continued_levels = get_list_level_type(ll)
+# Compute indentation levels within each section.
+def assign_indentation(section_paragraphs):
+	# Get a flat list of symbols.
+	para_symbols = []
+	for p in section_paragraphs:
+		if p["para_num"]:
+			list_levels = re.findall(r"\((.*?)\)", p["para_num"])
+			para_symbols.extend(list_levels)
+			
+	if len(para_symbols) == 0: return
+	
+	# Solve indentation level.
+	from infer_list_indentation import infer_list_indentation
+	indents = infer_list_indentation(para_symbols)
+	if indents == None: return # could not figure it out
+	
+	# Apply.
+	for p in section_paragraphs:
+		if p["para_num"]:
+			if not p["section_num"]: p["indent"] = indents[0][0]+1
+			list_levels = re.findall(r"\((.*?)\)", p["para_num"])
+			for ll in list_levels: indents.pop(0)
 
-			# at the start of a section, or immediately inside another list level, we are necessarily starting a level
-			original_continued_levels = continued_levels
-			if (i == 0 and section_head) or i > 0:
-				continued_levels = set()
-
-			# See if the continued_levels match any existing level:
-			for cl in continued_levels:
-				if cl in cur_list_style_levels and ((cl,ll) not in list_level_must_follow or list_level_must_follow[(cl,ll)] == cur_list_style_levels[cl][1]):
-					p["indent"] = cur_list_style_levels[cl][0]
-
-					# pop any inner levels
-					for cl2 in list(cur_list_style_levels):
-						if cur_list_style_levels[cl2][0] > cur_list_style_levels[cl][0]:
-							del cur_list_style_levels[cl2]
-
-					break
-
-			else:
-				if len(initial_levels) == 0:
-					# Fall back.
-					initial_levels = original_continued_levels
-
-					# No fallback?
-					if len(initial_levels) == 0: raise ValueError("Unmatched initial list level: " + repr(ll))
-
-				# No continued level matches. Make a new level.
-				il = list(initial_levels).pop(0)
-				n = (max(v[0] for v in cur_list_style_levels.values()) + 1) if len(cur_list_style_levels) > 0 else 1
-				cur_list_style_levels[il] = (n, ll)
-
-				# Don't set indentation levels on section paragraphs or if we've already set a level.
-				if not section_head and i == 0:
-					p["indent"] = n
+cur_section = []
+for p in paragraphs:
+	if p["section_num"]:
+		if len(cur_section) > 0: assign_indentation(cur_section)
+		cur_section = []
+	cur_section.append(p)
+if len(cur_section) > 0: assign_indentation(cur_section)
 
 print open("front_matter.html").read()
 
