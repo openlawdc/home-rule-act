@@ -2,142 +2,95 @@
 	<head>
 		<title>District of Columbia Home Rule Act</title>
 		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
-
-		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|Maven+Pro:400,700|Bubbler+One&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-		
-        <link rel='stylesheet' type='text/css' href='style.css' />
-        <link rel='stylesheet' type='text/css' href='site.css' />
-
-        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-
-        <script>
-        	function update_context() {
-        		// Get context at window top.
-        		var t = $(window).scrollTop();
-        		var context = [null, null, null];
-        		var dontshow = false;
-        		
-        		$('h2,h3,h4').each(function() {
-        			if ($(this).offset().top + $(this).height() < t) {
-        				var lvl = parseInt(this.tagName.substring(1))-2; // H2,H3,H4 => 0,1,2
-        				context[lvl] = $(this).text();
-        				for (var i = lvl+1; i < 4; i++) // clear levels within until we encounter them
-        					context[i] = null;
-        			} else if ($(this).offset().top < t+$('#context').height()*1.2) {
-        				dontshow = true;
-        			}
-        		});
-        		
-        	
-        		if (!($('#context').css( 'position' ) === 'fixed'))
-        			$('#context').css({ position: 'absolute', top: t }); // should not do if fixed is supported
-        			
-        		if (!context[0] || dontshow) {
-        			$('#context').fadeOut();
-        		} else {
-        			function trim(txt) {
-        				if (txt.length < 65) return txt;
-        				return txt.substring(0, 63) + "...";
-        			}
-        		
-        			$('#context .container').text('');
-        			for (var i = 0; i < context.length; i++) {
-        				if (!context[i]) break;
-        				$('#context .container').append($('<div/>').text(trim(context[i])));
-					}
-					$('#context').fadeIn();
-        		}
-        	}
-        
-        	$(function() {
-        		$(window).scroll(update_context);
-        	});
-        
-        </script>
+        <link rel='stylesheet' type='text/css' href='css/style.css' />
+        <link rel='stylesheet' type='text/css' href='css/site.css' />
+        <script src='js/jquery-1.9.1.min.js'></script>
+        <script src='js/site.js'></script>
 	</head>
 	<body>
-	
-<div id="context">
-	<div class="container">
+<div id='context'>
+	<div class='container'>
 	</div>
 </div>
-	
 <div class='container'>
-    <div class='intro'>
-<h1>District of Columbia Home Rule Act</h1>
-<p>(AMENDED THROUGH July 18, 2012)</p>
+    <div class='title pad2'>
+        <h1>District of Columbia Home Rule Act</h1>
+        <h2>(AMENDED THROUGH July 18, 2012)</h2>
+    </div>
+    <div class='intro pad2'>
 
-<p>Public Law 93-198; 87 Stat. 774<br/>
-D.C. Official Code § 1-201.01 et seq.<br/>
-Approved December 24, 1973</p>
+        <p>Public Law 93-198; 87 Stat. 774
+        D.C. Official Code § 1-201.01 et seq.
+        Approved December 24, 1973</p>
 
-<p>Prepared by<br/>
-Office of the General Counsel<br/>
-Council of the District of Columbia<br/>
-Suite 4<br/>
-1350 Pennsylvania Street, N.W.<br/>
-Washington, D.C. 20004<br/>
-(202) 724-8026</p>
+        <p>Prepared by
+        Office of the General Counsel
+        Council of the District of Columbia
+        Suite 4
+        1350 Pennsylvania Street, N.W.
+        Washington, D.C. 20004
+        (202) 724-8026</p>
+
+        <p>Revised July 23, 2012</p>
+
+        <p>This document depicts the District of Columbia Home Rule Act
+        as enacted by the Congress in December, 1973, and amended through
+        May 30, 2011, the date of the last congressional amendment before the
+        printing of this document. The text of the Act is in the original format as enacted
+        and amended. Where the Office of the General Counsel has added
+        brief annotations to the text, those annotations appear in brackets.</p>
+
+        <p>Provisions of the District of Columbia Home Rule Act that
+        amend other acts are not included in this document except for those
+        amendatory provisions found in Title IV (The District Charter).</p>
+
+        <p>This document has been updated for printing on:</p>
+
+        <ul>
+            <li>February 18, 2010
+            <li>July 17, 2009
+            <li>November 3, 2008
+            <li>June 6, 2007
+            <li>April 1, 2005
+            <li>July 7, 2004
+            <li>October 5, 2001
+            <li>January 28, 1999
+            <li>February 24, 1998
+        </ul>
+
+        <p>8.18.10</p>
+
+        <p>COUNCIL OF THE DISTRICT OF COLUMBIA</p>
 
 
-<p>Revised July 23, 2012</p>
+        <p>Phil Mendelson, Chairman</p>
 
-<p>This document depicts the District of Columbia Home Rule Act
-    as enacted by the Congress in December, 1973, and amended through
-   May 30, 2011, the date of the last congressional amendment before the
-printing of this document. The text of the Act is in the original format as enacted
-  and amended. Where the Office of the General Counsel has added
-       brief annotations to the text, those annotations appear in brackets.</p>
+        <table>
+            <tr><td>Yvette M. Alexander</td><td>Jack Evans</td></tr>
+            <tr><td>Marion Barry</td><td>Jim Graham</td></tr>
+            <tr><td>Muriel Bowser</td><td>Kenyan McDuffie</td></tr>
+            <tr><td>Michael A. Brown</td><td>Vincent B. Orange, Sr.</td></tr>
+            <tr><td>David A. Catania</td><td>Tommy Wells</td></tr>
+            <tr><td>Mary M. Cheh</td></tr>
+        </table>
 
-<p>Provisions of the District of Columbia Home Rule Act that
-     amend other acts are not included in this document except for those
-      amendatory provisions found in Title IV (The District Charter).</p>
+        <p>OFFICE OF THE GENERAL COUNSEL</p>
 
-              <p>This document has been updated for printing on:</p>
+        <p>Under Whose Direction This
+        Document Has Been Prepared</p>
 
-                             <p>February 18, 2010<br/>
-                               July 17, 2009<br/>
-                             November 3, 2008<br/>
-                               June 6, 2007<br/>
-                               April 1, 2005<br/>
-                                July 7, 2004<br/>
-                              October 5, 2001<br/>
-                             January 28, 1999<br/>
-                             February 24, 1998</p>
-
-                                        <p style="text-align: right">8.18.10</p>
-
-<p>COUNCIL OF THE DISTRICT OF COLUMBIA</p>
-
-
-<p>                  Phil Mendelson, Chairman</p>
-<table>
-<tr><td style="padding-right: 2em">Yvette M. Alexander</td><td>Jack Evans</td></tr>
-<tr><td>Marion Barry</td><td>Jim Graham</td></tr>
-<tr><td>Muriel Bowser</td><td>Kenyan McDuffie</td></tr>
-<tr><td>Michael A. Brown</td><td>Vincent B. Orange, Sr.</td></tr>
-<tr><td>David A. Catania</td><td>Tommy Wells</td></tr>
-<tr><td>Mary M. Cheh</td></tr>
-</table>
-
-          <p>OFFICE OF THE GENERAL COUNSEL</p>
-
-                 <p>Under Whose Direction This<br/>
-                 Document Has Been Prepared</p>
-
-             <p>V. David Zvenyach, General Counsel<br/>
-              John Hoellen, Legislative Counsel<br/>
-            Benjamin Bryant, Codification Counsel<br/>
-         Katherine Westcott, Assistant General Counsel<br/>
-          Melissa Tucker, Assistant General Counsel<br/>
-         Manasi Venkatesh, Assistant General Counsel<br/>
-            Karen R. Barbour, Legislative Assistant<br/>
-                   Ada Arrington, Secretary</p>
-
-</div>
-
-<hr>
-
+        <ul>
+            <li>V. David Zvenyach, General Counsel
+            <li>John Hoellen, Legislative Counsel
+            <li>Benjamin Bryant, Codification Counsel
+            <li>Katherine Westcott, Assistant General Counsel
+            <li>Melissa Tucker, Assistant General Counsel
+            <li>Manasi Venkatesh, Assistant General Counsel
+            <li>Karen R. Barbour, Legislative Assistant
+            <li>Ada Arrington, Secretary
+        </ul>
+    </div>
+    <div class='pad2'>
 
 <h2>Table of Contents</h2>
 <div id='toc'>
@@ -5833,6 +5786,7 @@ Part E of title VII shall take effect on the date on which title IV is accepted 
 </p>
 <hr>
 
+            </div>
         </div>
 	</body>
 </html>

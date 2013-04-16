@@ -25,7 +25,7 @@ for line in home_rule_act.split("\n"):
 		paragraphs[-1] += " " + line
 
 # Extract front matter, through the Table of Contents
-main_start = paragraphs.index('TITLE I - SHORT TITLE, PURPOSES, AND DEFINITIONS')	
+main_start = paragraphs.index('TITLE I - SHORT TITLE, PURPOSES, AND DEFINITIONS')
 front_paragraphs = paragraphs[:main_start]
 # Extract back matter, which starts with Organic and Amendment History
 back_start = paragraphs.index("DISTRICT OF COLUMBIA HOME RULE ACT ORGANIC AND AMENDATORY HISTORY")
@@ -94,14 +94,14 @@ def assign_indentation(section_paragraphs):
 		if p["para_num"]:
 			list_levels = re.findall(r"\((.*?)\)", p["para_num"])
 			para_symbols.extend(list_levels)
-			
+
 	if len(para_symbols) == 0: return
-	
+
 	# Solve indentation level.
 	from infer_list_indentation import infer_list_indentation
 	indents = infer_list_indentation(para_symbols)
 	if indents == None: return # could not figure it out
-	
+
 	# Apply.
 	for p in section_paragraphs:
 		if p["para_num"]:
@@ -125,14 +125,14 @@ for p in paragraphs:
 	if "ref" in p:
 		ref = "--".join(p["ref"])
 		ref = cgi.escape(ref).encode("utf8")
-		
+
 		if p["title_num"]:
 			indent = 0
 		elif p["part_num"]:
 			indent = 1
 		elif p["subpart_num"]:
 			indent = 2
-			
+
 		print ("<p style='margin-left: %dem'><a href='#" % indent) + ref + "'>" + cgi.escape(p["text"]).encode("utf8") + "</a></a>"
 
 print "</div>"
@@ -143,12 +143,12 @@ for p in paragraphs:
 	if p["text"] == u"[\u000C]":
 		print "<hr>"
 		continue
-		
+
 	if "ref" in p:
 		ref = "--".join(p["ref"])
 		ref = cgi.escape(ref).encode("utf8")
 		print "<a name='" + ref + "'> </a>"
-		
+
 	if p["title_num"]:
 		print "<h2>" + cgi.escape(p["text"]).encode("utf8") + "</h2>"
 	elif p["part_num"]:
@@ -164,6 +164,7 @@ for p in paragraphs:
 		print "</p>"
 
 print """
+            </div>
         </div>
 	</body>
 </html>

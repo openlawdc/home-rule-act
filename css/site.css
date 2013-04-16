@@ -1,0 +1,86 @@
+body {
+    background:url(white_wall_hash.png) #eee;
+    background-size:250px 250px;
+}
+
+.container {
+    max-width:600px;
+	font: 15px/25px 'Helvetica Neue', sans-serif;
+    background:#fff;
+    margin:10px auto 20px auto;
+    border:1px solid #222;
+}
+
+a, a:visited, a:hover {
+	color: #97005B;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+
+.title {
+    text-align:center;
+    background:#fff;
+}
+
+.title h1 {
+	font: 25px/35px 'Georgia', serif;
+    margin-bottom:5px;
+}
+
+.title h2 {
+	font: 12px/20px 'Georgia', serif;
+    color:#777;
+}
+
+.intro {
+    text-align:center;
+	font: 12px/20px 'Helvetica Neue', sans-serif;
+    background:#efefef;
+    border-bottom:1px solid #aaa;
+    border-top:1px solid #aaa;
+}
+
+table tr td {
+    border-bottom:1px solid #ddd;
+}
+
+@media (max-width: 800px) {
+    .container {
+        margin:0;
+        max-width:100%;
+    }
+}
+
+#toc p {
+	margin: 0 0 .5em 0;
+}
+
+#context {
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+	background-color: white;
+	padding-bottom: 5px;
+}
+
+#context .container {
+	padding: 1em;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+}
+
+/* content rules! */
+h2, h3, h4 {
+    border-bottom: 1px solid #aaa;
+    margin-bottom:10px;
+    padding-bottom:10px;
+}
+h2 { font-size:20px; }
+h3 { font-size:18px; }
+h4 { font-size:16px; }
