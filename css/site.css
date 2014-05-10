@@ -1,86 +1,96 @@
-body {
-    background:url(white_wall_hash.png) #eee;
-    background-size:250px 250px;
+/* force a vertical scrollbar on all pages so that we don't get horizontal jumps
+   when navigating from a no-scrollbar to a with-scrollbar page and vice versa */
+html{overflow-y:scroll}
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.container {
-    max-width:600px;
-	font: 15px/25px 'Helvetica Neue', sans-serif;
-    background:#fff;
-    margin:10px auto 20px auto;
-    border:1px solid #222;
-}
-
-a, a:visited, a:hover {
-	color: #97005B;
+a {
+    color: rgba(67,127,190,1);
+    text-decoration: underline;
 }
 
 a:hover {
-    text-decoration:underline;
+    color: rgba(42,65,150,1);
+}
+
+header {
+    padding: 10px 0;
+    margin-bottom: 10px;
+    color: #444;
+    border-bottom: 3px solid #75787b;
+}
+
+header .right {
+    float: right;
+}
+
+header #sitename {
+    margin: 0;
+    color: #63666a;
+    font-size: 20px;
+}
+
+header a {
+    color: rgba(67,190,190,1);
+    font-weight: bold;
 }
 
 
-.title {
-    text-align:center;
-    background:#fff;
+footer {
+    border-top: 1px solid #444;
+    margin-top: 1em;
+    padding: 1em 10px;
+    font-size: 80%;
+    color: #444;
 }
 
-.title h1 {
-	font: 25px/35px 'Georgia', serif;
-    margin-bottom:5px;
+footer p {
+    margin: 0 0 .25em 0;
 }
 
-.title h2 {
-	font: 12px/20px 'Georgia', serif;
-    color:#777;
+#sidebar {
+    padding: 0 50px 0 1em;
+    font-size: 13px;
 }
 
-.intro {
-    text-align:center;
-	font: 12px/20px 'Helvetica Neue', sans-serif;
+    #sidebar h2 {
+        font-size: 14px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+#content {
+    font-size: 16px;
+}
+
+#search-box {
+    width:100px;
+}
+
+#search-button {
     background:#efefef;
-    border-bottom:1px solid #aaa;
-    border-top:1px solid #aaa;
+    border:1px solid #ccc;
+    border-left:0;
+    font-size:22px;
+    margin:0;
+    height:30px;
+    padding:4px 4px;
+    vertical-align:top;
 }
 
-table tr td {
-    border-bottom:1px solid #ddd;
+#search-button:hover {
+    background:#ccc;
 }
 
-@media (max-width: 800px) {
-    .container {
-        margin:0;
-        max-width:100%;
+@media (max-width: 780px) {
+    #sidebar {
+        font-size: 11px;
+    }
+    #content {
+        font-size: 14px;
     }
 }
-
-#toc p {
-	margin: 0 0 .5em 0;
-}
-
-#context {
-	display: none;
-	position: fixed;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: auto;
-	background-color: white;
-	padding-bottom: 5px;
-}
-
-#context .container {
-	padding: 1em;
-	border-bottom: 1px solid black;
-	font-weight: bold;
-}
-
-/* content rules! */
-.content h2, .content h3, .content h4 {
-    border-bottom: 1px solid #aaa;
-    margin-bottom:10px;
-    padding-bottom:10px;
-}
-.content h2 { font-size:20px; }
-.content h3 { font-size:18px; }
-.content h4 { font-size:16px; }

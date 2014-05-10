@@ -1,2 +1,2 @@
-index.html: css front_matter.html
-	python parse.py > index.html
+index.xml: front_matter.xml
+	python parse.py | xmllint --format - > index.xml 

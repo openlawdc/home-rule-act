@@ -38,60 +38,43 @@ paragraphs = paragraphs[main_start:back_start]
 paragraphs = [
 	{ "indent": 0,
 	  "text": p,
-	  "section_num": None,
-	  "dc_code_cite": None,
-	  "para_num": None,
-	  "title_num": None,
-	  "part_num": None,
-	  "subpart_num": None
 	} for p in paragraphs]
 
-super_structure = { }
 for p in paragraphs:
-	m = re.match(r"(SEC\. \w+\.? )?(\[D\.C\. (?:Official )?Code [^\]]*\]\.? )?((?:\(\S+\)\s*)*)", p["text"], re.I)
+	m = re.match(r"(SEC\. \w+\.? )?(\[D\.C\. (?:Official )?Code [^\]]*\]\.? )?((?:\(\S+\)\s*)*)(?:(.*\S) --\s*)?", p["text"], re.I)
 
-	m_title = re.match(r"(TITLE\ \w+).*", p["text"])
+	m_heading = re.match(r"(?:(TITLE|PART|Subpart)\ ([\w\-]+))\s[\s\-]*(.*)", p["text"])
 	try:
-		p["title_num"] = m_title.groups()[0]
-		super_structure["title"] = p["title_num"]
-		p["ref"] = (super_structure["title"],)
+		p["heading-type"] = m_heading.group(1).lower()
+		p["num"] = m_heading.group(2)
+		p["heading"] = m_heading.group(3)
+		continue
 	except AttributeError:
 		pass
 
-	m_part = re.match(r"(PART\ \w+).*", p["text"])
-	try:
-		p["part_num"] = m_part.groups()[0]
-		super_structure["part"] = p["part_num"]
-		p["ref"] = (super_structure["title"], super_structure["part"])
-	except AttributeError:
-		pass
-
-	m_subpart = re.match(r"(Subpart\ \w+).*", p["text"])
-	try:
-		p["subpart_num"] = m_subpart.groups()[0]
-		p["ref"] = (super_structure["title"], super_structure["part"], p["subpart_num"])
-	except AttributeError:
-		pass
-
-	section_head, dc_code_cite, paragraph_heads = m.groups()
+	section_num, dc_code_cite, paragraph_heads, heading = m.groups()
 
 	# chop off the section head and citation info
 	p["text"] = p["text"][len(m.group(0)):]
 
 	# starts a new section
-	if section_head:
-		p["section_num"] = section_head
+	if section_num:
+		p["heading-type"] = "section"
+		p["num"] = re.sub(r"(SEC|Sec)\. (.*\S)\.", r"\2", section_num).strip()
+		p["heading"] = heading
 		p["dc_code_cite"] = dc_code_cite
+		continue
 
 	if paragraph_heads:
 		p["para_num"] = paragraph_heads
+		p["heading"] = heading
 
 # Compute indentation levels within each section.
 def assign_indentation(section_paragraphs):
 	# Get a flat list of symbols.
 	para_symbols = []
 	for p in section_paragraphs:
-		if p["para_num"]:
+		if p.get("para_num"):
 			list_levels = re.findall(r"\((.*?)\)", p["para_num"])
 			para_symbols.extend(list_levels)
 
@@ -104,68 +87,85 @@ def assign_indentation(section_paragraphs):
 
 	# Apply.
 	for p in section_paragraphs:
-		if p["para_num"]:
-			if not p["section_num"]: p["indent"] = indents[0][0]+1
+		if p.get("para_num"):
+			if p.get("heading-type") != "section": p["indent"] = indents[0][0]+1
 			list_levels = re.findall(r"\((.*?)\)", p["para_num"])
 			for ll in list_levels: indents.pop(0)
 
 cur_section = []
 for p in paragraphs:
-	if p["section_num"]:
+	if p.get("heading-type") == "section":
 		if len(cur_section) > 0: assign_indentation(cur_section)
 		cur_section = []
 	cur_section.append(p)
 if len(cur_section) > 0: assign_indentation(cur_section)
 
-print open("front_matter.html").read()
+print open("front_matter.xml").read()
 
-print "<h2>Table of Contents</h2>"
-print "<div id='toc'>"
-for p in paragraphs:
-	if "ref" in p:
-		ref = "--".join(p["ref"])
-		ref = cgi.escape(ref).encode("utf8")
-
-		if p["title_num"]:
-			indent = 0
-		elif p["part_num"]:
-			indent = 1
-		elif p["subpart_num"]:
-			indent = 2
-
-		print ("<p style='margin-left: %dem'><a href='#" % indent) + ref + "'>" + cgi.escape(p["text"]).encode("utf8") + "</a></a>"
-
-print "</div>"
-
-print "<hr>"
+level_types = ('title', 'part', 'subpart', 'section')
+big_stack = []
+little_stack = 0
 
 for p in paragraphs:
 	if p["text"] == u"[\u000C]":
-		print "<hr>"
+		#print "<hr>"
 		continue
 
-	if "ref" in p:
-		ref = "--".join(p["ref"])
-		ref = cgi.escape(ref).encode("utf8")
-		print "<a name='" + ref + "'> </a>"
+	#if "ref" in p:
+	#	ref = "--".join(p["ref"])
+	#	ref = cgi.escape(ref).encode("utf8")
+	#	print "<a name='" + ref + "'> </a>"
 
-	if p["title_num"]:
-		print "<h2>" + cgi.escape(p["text"]).encode("utf8") + "</h2>"
-	elif p["part_num"]:
-		print "<h3>" + cgi.escape(p["text"]).encode("utf8") + "</h3>"
-	elif p["subpart_num"]:
-		print "<h4>" + cgi.escape(p["text"]).encode("utf8") + "</h4>"
+	if p.get("heading-type"):
+		while little_stack > 0:
+			print "</level>"
+			little_stack -= 1
+
+		while big_stack and level_types.index(big_stack[-1]) >= level_types.index(p["heading-type"]):
+			print "</level>"
+			big_stack.pop()
+
+		big_stack.append(p["heading-type"])
+
+		print """
+<level>
+	<type>toc</type>
+	<prefix>%s</prefix>
+	<num>%s</num>
+""" % (p["heading-type"].title(), cgi.escape(p["num"]).encode("utf8"))
+
+		if p.get("dc_code_cite"): print "\t<dc-code-parallel-citation>%s</dc-code-parallel-citation>" % cgi.escape(p["dc_code_cite"]).encode("utf8")
+		if p.get("heading"): print "\t<heading>%s</heading>" % cgi.escape(p["heading"]).encode("utf8")
+		if p.get("text"): print "\t<text>%s</text>" % cgi.escape(p["text"]).encode("utf8")
+
 	else:
-		print ("<p style='margin-left: %dem'>" % (p['indent'] if p['indent'] else 0))
-		if p["section_num"]: print "<strong>" + cgi.escape(p["section_num"]).encode("utf8") + "</strong>"
-		if p["dc_code_cite"]: print "<small>" + cgi.escape(p["dc_code_cite"]).encode("utf8") + "</small>"
-		if p["para_num"]: print "<strong>" + cgi.escape(p["para_num"]).encode("utf8") + "</strong>"
-		print cgi.escape(p["text"]).encode("utf8")
-		print "</p>"
+
+		if p.get("para_num") or p.get("heading"):
+			while little_stack >= p['indent']:
+				print "</level>"
+				little_stack -= 1
+			little_stack += 1
+
+			print "<level>"
+			if p.get("para_num"): print "\t<num>%s</num>" % cgi.escape(p["para_num"]).encode("utf8").strip()
+			if p.get("heading"): print "\t<heading>%s</heading>" % cgi.escape(p["heading"]).encode("utf8")
+			print "<text>%s</text>" % cgi.escape(p["text"]).encode("utf8")
+
+		else:
+			if p["text"].strip() == "": continue
+
+			print """
+<text>%s</text>
+""" % cgi.escape(p["text"]).encode("utf8")
+
+while little_stack > 0:
+	print "</level>"
+	little_stack -= 1
+
+while big_stack:
+	print "</level>"
+	big_stack.pop()
 
 print """
-            </div>
-        </div>
-	</body>
-</html>
+</level>
 """
