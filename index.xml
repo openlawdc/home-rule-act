@@ -84,30 +84,30 @@
     <num>I</num>
     <heading>SHORT TITLE, PURPOSES, AND DEFINITIONS</heading>
     <text>TITLE I - SHORT TITLE, PURPOSES, AND DEFINITIONS</text>
-    <text>SHORT TITLE</text>
     <level type="toc">
       <prefix>Section</prefix>
       <num>101</num>
       <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-201.01] </dc-code-parallel-citation>
+      <heading>SHORT TITLE</heading>
       <text>This Act may be cited as the "District of Columbia Home Rule Act".</text>
-      <text>STATEMENT OF PURPOSES</text>
     </level>
     <level type="toc">
       <prefix>Section</prefix>
       <num>102</num>
       <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-201.02] </dc-code-parallel-citation>
+      <heading>STATEMENT OF PURPOSES</heading>
       <text>Subject to the retention by Congress of the ultimate legislative authority over the nation's capital granted by article I, ' 8, of the Constitution, the intent of Congress is to delegate certain legislative powers to the government of the District of Columbia; authorize the election of certain local officials by the registered qualified electors in the District of Columbia; grant to the inhabitants of the District of Columbia powers of local self-government; modernize, reorganize, and otherwise improve the governmental structure of the District of Columbia; and, to the greatest extent possible, consistent with the constitutional mandate, relieve Congress of the burden of legislating upon essentially local District matters.</text>
       <level>
         <num>(b)</num>
         <text>Congress further intends to implement certain recommendations of the Commission on the Organization of the Government of the District of Columbia and take certain other actions irrespective of whether the charter for greater self-government provided for in title IV of this Act [District Charter] is accepted or rejected by the registered qualified electors of the District of Columbia.</text>
-        <text>DEFINITIONS</text>
       </level>
     </level>
     <level type="toc">
       <prefix>Section</prefix>
       <num>103</num>
       <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-202.03] </dc-code-parallel-citation>
-      <heading>For the purposes of this Act</heading>
+      <heading>DEFINITIONS</heading>
+      <text>For the purposes of this Act</text>
       <level>
         <num>(1)</num>
         <text>The term "District" means the District of Columbia.</text>
@@ -188,10 +188,10 @@
     <num>II</num>
     <heading>GOVERNMENTAL REORGANIZATION</heading>
     <text>TITLE II -- GOVERNMENTAL REORGANIZATION</text>
-    <text>REDEVELOPMENT LAND AGENCY</text>
     <level type="toc">
       <prefix>Section</prefix>
       <num>201</num>
+      <heading>REDEVELOPMENT LAND AGENCY</heading>
       <text>[Amendment to the District of Columbia Redevelopment Act of 1945, approved August 2, 1946 (60 Stat. 790; D.C. Official Code &#xA7; 6-301.01 et seq.)]</text>
       <level>
         <num>(e)</num>
@@ -200,30 +200,30 @@
       <level>
         <num>(f)</num>
         <text>[D.C. Official Code &#xA7; 1-202.01(f)] For the purpose of subsection 713(d), employees in the District of Columbia Redevelopment Land Agency shall be deemed to be transferred to the District of Columbia as of the effective date of this title without a break in service.</text>
-        <text>NATIONAL CAPITAL HOUSING AUTHORITY</text>
       </level>
     </level>
     <level type="toc">
       <prefix>Section</prefix>
       <num>202</num>
       <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-202.02] </dc-code-parallel-citation>
+      <heading>NATIONAL CAPITAL HOUSING AUTHORITY</heading>
       <text>The National Capital Housing Authority (hereinafter referred to as the "Authority") established under the District of Columbia Alley Dwelling Act (D.C. Official Code, sec. 5-101 - 5-115 [, approved June 12, 1934 (48 Stat. 930; D.C. Official Code &#xA7;' 6-101.01 through 6-102.05)] shall be an agency of the District of Columbia government subject to the organizational and reorganizational powers specified in sections 404(b) and 422(12) of this Act [D.C. Official Code &#xA7;' 1-204.04(b) and 1-204.22(12)].</text>
       <level>
         <num>(b)</num>
         <text>All functions, powers, and duties of the President under the District of Columbia Alley Dwelling Act [D.C. Official Code &#xA7;' 6-101.01 through 6-102.05] shall be vested in and exercised by the Commissioner [Mayor]. All employees, property (real and personal), and unexpended balances (available or to be made available) of appropriations, allocations, and all other funds, and assets and liabilities of the Authority are authorized to be transferred to the District of Columbia government.</text>
-        <text>NATIONAL CAPITAL PLANNING COMMISSION AND MUNICIPAL PLANNING</text>
       </level>
     </level>
     <level type="toc">
       <prefix>Section</prefix>
       <num>203</num>
+      <heading>NATIONAL CAPITAL PLANNING COMMISSION AND MUNICIPAL PLANNING</heading>
       <text>[Amendment to An Act providing for a comprehensive development of the park and playground system of the National Capital, approved June 6, 1924 (43 Stat. 463; D.C. Official Code &#xA7; 2-1002)]</text>
-      <text>DISTRICT OF COLUMBIA MANPOWER ADMINISTRATION</text>
     </level>
     <level type="toc">
       <prefix>Section</prefix>
       <num>204</num>
       <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-202.04] </dc-code-parallel-citation>
+      <heading>DISTRICT OF COLUMBIA MANPOWER ADMINISTRATION</heading>
       <text>All functions of the Secretary of Labor (hereafter in this section referred to as the "Secretary") under section 3 of the Act entitled "An Act to provide for the establishment of a national employment system and for cooperation with the states in the promotion of such system, and for other purposes," approved June 6, 1933 (29 U.S.C. '' 49-49k), with respect to the maintenance of a public employment service for the District, are transferred to the Mayor. After the effective date of this transfer, the Secretary shall maintain with the District the same relationship with respect to a public employment service in the District, including the financing of such service, as he has with the States (with respect to a public employment service in the states) generally.</text>
       <level>
         <num>(b)</num>
@@ -260,25 +260,25 @@
     <num>III</num>
     <heading>DISTRICT CHARTER PREAMBLE, LEGISLATIVE POWER, AND CHARTER AMENDING PROCEDURE</heading>
     <text>TITLE III -- DISTRICT CHARTER PREAMBLE, LEGISLATIVE POWER, AND CHARTER AMENDING PROCEDURE</text>
-    <text>DISTRICT CHARTER PREAMBLE</text>
     <level type="toc">
       <prefix>Section</prefix>
       <num>301</num>
       <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-203.01] </dc-code-parallel-citation>
+      <heading>DISTRICT CHARTER PREAMBLE</heading>
       <text>The charter for the District of Columbia set forth in title IV [District Charter] shall establish the means of governance of the District following its acceptance by a majority of the registered qualified electors of the District voting thereon in the charter referendum held with respect thereto.</text>
-      <text>LEGISLATIVE POWER</text>
     </level>
     <level type="toc">
       <prefix>Section</prefix>
       <num>302</num>
       <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-203.02] </dc-code-parallel-citation>
+      <heading>LEGISLATIVE POWER</heading>
       <text>Except as provided in sections 601, 602, and 603 [D.C. Official Code &#xA7;' 1-206.01, 1-206.02, and 1-206.03], the legislative power of the District shall extend to all rightful subjects of legislation within the District consistent with the Constitution of the United States and the provisions of this Act subject to all the restrictions and limitations imposed upon the States by the tenth section of the first article of the Constitution of the United States.</text>
-      <text>CHARTER AMENDING PROCEDURE</text>
     </level>
     <level type="toc">
       <prefix>Section</prefix>
       <num>303</num>
       <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-203.03] </dc-code-parallel-citation>
+      <heading>CHARTER AMENDING PROCEDURE</heading>
       <text>The charter set forth in title IV (including any provision of law amended by such title), except sections 401(a) and 421(a) [D.C. Official Code '' 1-204.01(a) and 1-204.21(a)], and part C of such title [D.C. Official Code &#xA7;' 1-204.31 through 1-204.34], may be amended by an act passed by the Council and ratified by a majority of the registered qualified electors of the District voting in the referendum held for such ratification. The Chairman of the Council shall submit all such acts to the Speaker of the House of Representatives and the President of the Senate on the day the Board of Elections and Ethics [Board of Elections] certifies that such act was ratified by a majority of the registered qualified electors voting thereon in such referendum.</text>
       <level>
         <num>(b)</num>
@@ -310,11 +310,11 @@
         <num>1</num>
         <heading>Creation of the Council</heading>
         <text>Subpart 1 -- Creation of the Council</text>
-        <text>CREATION AND MEMBERSHIP</text>
         <level type="toc">
           <prefix>Section</prefix>
           <num>401</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.01] </dc-code-parallel-citation>
+          <heading>CREATION AND MEMBERSHIP</heading>
           <text>There is established a Council of the District of Columbia; and the members of the Council shall be elected by the registered qualified electors of the District.</text>
           <level>
             <num>(b) (1)</num>
@@ -346,7 +346,6 @@
             <level>
               <num>(3)</num>
               <text>Notwithstanding any other provision of this section, at no time shall there be more than three members (including the Chairman) serving at large on the Council who are affiliated with the same political party.</text>
-              <text>QUALIFICATIONS FOR HOLDING OFFICE</text>
             </level>
           </level>
         </level>
@@ -354,13 +353,14 @@
           <prefix>Section</prefix>
           <num>402</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.02] </dc-code-parallel-citation>
+          <heading>QUALIFICATIONS FOR HOLDING OFFICE</heading>
           <text>No person shall hold the office of member of the Council, including the Office of Chairman, unless he (a) is a qualified elector; (b) is domiciled in the District and if he is nominated for election from a particular ward, resides in the ward from which he is nominated; (c) has resided and been domiciled in the District for one year immediately preceding the day on which the general or special election for such office is to be held; and (d) holds no public office (other than his employment in and position as a member of the Council), for which he is compensated in an amount in excess of his actual expenses in connection therewith, except that nothing in this clause shall prohibit any such person, while a member of the Council, from serving as a delegate or alternate delegate to a convention of a political party nominating candidates for President and Vice President of the United States, or from holding an appointment in a reserve component of an armed force of the United States other than a member serving on active duty under a call for more than thirty days. A member of the Council shall forfeit his office upon failure to maintain the qualifications required by this section, and[,] in the case of the Chairman[,] section 403(c) [D.C. Official Code &#xA7; 1-204.03(c)].</text>
-          <text>COMPENSATION</text>
         </level>
         <level type="toc">
           <prefix>Section</prefix>
           <num>403</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.03] </dc-code-parallel-citation>
+          <heading>COMPENSATION</heading>
           <text>Each member of the Council shall receive compensation, payable in periodic installments, at a rate equal to the maximum rate as may be established from time to time for grade 12 of the General Schedule under section 5332 of title 5 of the United States Code. On and after the end of the two-year period beginning on the day the members of the Council first elected under this Act take office, the Council may, by act, increase or decrease such rate of compensation. Such change in compensation, upon enactment by the Council in accordance with the provisions of this Act, shall apply with respect to the term of members of the Council beginning after the date of enactment of such change.</text>
           <level>
             <num>(b)</num>
@@ -373,13 +373,13 @@
           <level>
             <num>(d)</num>
             <text>Notwithstanding subsection (a), as of the effective date of the District of Columbia Appropriations Act, 2001 [December 21, 2001], the Chairman shall receive compensation, payable in equal installments, at a rate equal to $10,000 less than the annual compensation of the Mayor.</text>
-            <text>POWERS OF THE COUNCIL</text>
           </level>
         </level>
         <level type="toc">
           <prefix>Section</prefix>
           <num>404</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.04] </dc-code-parallel-citation>
+          <heading>POWERS OF THE COUNCIL</heading>
           <text>Subject to the limitations specified in title VI of this Act [D.C. Official Code &#xA7;' 1-206.01 through 1-206.04], the legislative power granted to the District by this Act is vested in and shall be exercised by the Council in accordance with this Act. In addition, except as otherwise provided in this Act, all functions granted to or imposed upon, or vested in or transferred to the District of Columbia Council, as established by Reorganization Plan No. 3 of 1967, shall be carried out by the Council in accordance with the provisions of this Act.</text>
           <level>
             <num>(b)</num>
@@ -409,22 +409,22 @@
         <num>2</num>
         <heading>Organization and Procedure of the Council</heading>
         <text>Subpart 2 -- Organization and Procedure of the Council</text>
-        <text>THE CHAIRMAN</text>
         <level type="toc">
           <prefix>Section</prefix>
           <num>411</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.11] </dc-code-parallel-citation>
+          <heading>THE CHAIRMAN</heading>
           <text>The Chairman shall be the presiding officer of the Council.</text>
           <level>
             <num>(b)</num>
             <text>When the Office of Mayor is vacant, the Chairman shall act in his stead. While the Chairman is Acting Mayor he shall not exercise any of his authority as Chairman or member of the Council.</text>
-            <text>ACTS, RESOLUTIONS, AND REQUIREMENTS FOR QUORUM</text>
           </level>
         </level>
         <level type="toc">
           <prefix>Section</prefix>
           <num>412</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.12] </dc-code-parallel-citation>
+          <heading>ACTS, RESOLUTIONS, AND REQUIREMENTS FOR QUORUM</heading>
           <text>The Council, to discharge the powers and duties imposed herein, shall pass acts and adopt resolutions, upon a vote of a majority of the members of the Council present and voting, unless otherwise provided in this Act or by the Council. Except as provided in the last sentence of this subsection, the Council shall use acts for all legislative purposes. Each proposed act (other than an act to which section 446 [D.C. Official Code ' 1-204.46] applies) shall be read twice in substantially the same form, with at least thirteen days intervening between each reading. Upon final adoption by the Council each act shall be made immediately available to the public in a manner which the Council shall determine. If the Council determines, by a vote of two-thirds of the members, that emergency circumstances make it necessary that an act be passed after a single reading, or that it take effect immediately upon enactment, such act shall be effective for a period of not to exceed ninety days.</text>
           <text>Resolutions shall be used (1) to express simple determinations, decisions, or directions of the Council of a special or temporary character; and (2) to approve or disapprove proposed actions of a kind historically or traditionally transmitted by the Mayor, the Board of Elections, Public Service Commission, Armory Board, Board of Education, the Board of Trustees of the University of the District of Columbia, or the Convention Center Board of Directors to the Council pursuant to an act. Such resolutions must be specifically authorized by that act and must be designed to implement that act.</text>
           <level>
@@ -434,13 +434,13 @@
           <level>
             <num>(c)</num>
             <text>A majority of the Council shall constitute a quorum for the lawful convening of any meeting and for the transaction of business of the Council, except a lesser number may hold hearings.</text>
-            <text>INVESTIGATIONS BY THE COUNCIL</text>
           </level>
         </level>
         <level type="toc">
           <prefix>Section</prefix>
           <num>413</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.13] </dc-code-parallel-citation>
+          <heading>INVESTIGATIONS BY THE COUNCIL</heading>
           <text>The Council, or any committee or person authorized by it, shall have power to investigate any matter relating to the affairs of the District, and for that purpose may require the attendance and testimony of witnesses and the production of books, papers, and other evidence. For such purpose any member of the Council (if the Council is conducting the inquiry) or any member of the committee may issue subpoenas, and administer oaths upon resolution adopted by the Council or committee, as appropriate.</text>
           <level>
             <num>(b)</num>
@@ -454,11 +454,11 @@
       <num>B-</num>
       <heading>THE MAYOR</heading>
       <text>PART B- THE MAYOR</text>
-      <text>ELECTION, QUALIFICATIONS, VACANCY, AND COMPENSATION</text>
       <level type="toc">
         <prefix>Section</prefix>
         <num>421</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.21] </dc-code-parallel-citation>
+        <heading>ELECTION, QUALIFICATIONS, VACANCY, AND COMPENSATION</heading>
         <text>There is established the Office of Mayor of the District of Columbia; and the Mayor shall be elected by the registered qualified electors of the District.</text>
         <level>
           <num>(b)</num>
@@ -476,13 +476,13 @@
           <num>(d)</num>
           <text>The Mayor shall receive compensation, payable in equal installments, at a rate equal to the maximum rate, as may be established from time to time, for level III of the Executive Schedule in section 5314 of title 5 of the United States Code. Such rate of compensation may be increased or decreased by act of the Council. Such change in such compensation, upon enactment by the Council in accordance with the provisions of this Act, shall apply with respect to the term of Mayor next beginning after the date of such change. In addition, the Mayor may receive an allowance, in such amount as the Council may from time to time establish, for official, reception,</text>
           <text>and representation expenses, which he shall certify in reasonable detail to the Council.</text>
-          <text>POWERS AND DUTIES</text>
         </level>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>422</num>
         <dc-code-parallel-citation>[D.C. Code &#xA7; 1-242] </dc-code-parallel-citation>
+        <heading>POWERS AND DUTIES</heading>
         <text>The executive power of the District shall be vested in the Mayor who shall be the chief executive officer of the District government. In addition, except as otherwise provided in this Act, all functions granted to or vested in the Commissioner of the District of Columbia, as established under Reorganization Plan No. 3 of 1967, shall be carried out by the Mayor in accordance with this Act. The Mayor shall be responsible for the proper execution of all laws relating to the District, and for the proper administration of the affairs of the District coming under his jurisdiction or control, including but not limited to the following powers, duties, and functions:</text>
         <level>
           <num>(1)</num>
@@ -533,13 +533,13 @@
         <level>
           <num>(12)</num>
           <text>The Mayor may reorganize the offices, agencies, and other entities within the executive branch of the government of the District by submitting to the Council a detailed plan of such reorganization. Such a reorganization plan shall be valid only if the Council does not adopt, within sixty days (excluding Saturdays, Sundays, and holidays) after such reorganization plan is submitted to it by the Mayor, a resolution disapproving such reorganization.</text>
-          <text>MUNICIPAL PLANNING</text>
         </level>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>423</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.23]. </dc-code-parallel-citation>
+        <heading>MUNICIPAL PLANNING</heading>
         <text>The Mayor shall be the central planning agency for the District. He shall be responsible for the coordination of planning activities of the municipal government and the preparation and implementation of the District's elements of the comprehensive plan for the National Capital which may include land use elements, urban renewal and redevelopment elements, a multi-year program of municipal public works for the District, and physical, social, economic, transportation, and population elements. The Mayor's planning responsibility shall not extend to federal and international projects and developments in the District, as determined by the National Capital Planning Commission, or to the United States Capitol buildings and grounds as defined in sections 1 and 16 of the Act of July 31, 1946 [D.C. Official Code &#xA7;' 10-503.11 and 10-503.26], or to any extension thereof or addition thereto, or to buildings and grounds under the care of the Architect of the Capitol. In carrying out his responsibilities under this section, the Mayor shall establish procedures for citizen involvement in the planning process and for appropriate meaningful consultation with any state or local government or planning agency in the National Capital region affected by any aspect of a proposed District element of the comprehensive plan (including amendments thereto) affecting or relating to the District.</text>
         <level>
           <num>(b)</num>
@@ -548,20 +548,20 @@
         <level>
           <num>(c)</num>
           <text>Such elements and amendments thereto shall be subject to and limited by determinations with respect to the interests and functions of the federal establishment as determined in the manner provided by act of Congress.</text>
-          <text>CHIEF FINANCIAL OFFICER OF THE DISTRICT OF COLUMBIA</text>
         </level>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>424</num>
-        <text>[D.C. Official Code &#xA7; 1-204.24a] IN GENERAL. &#x2013; </text>
+        <heading>CHIEF FINANCIAL OFFICER OF THE DISTRICT OF COLUMBIA</heading>
+        <text>[D.C. Official Code &#xA7; 1-204.24a] IN GENERAL. &#x2013;</text>
         <level>
           <num>(1)</num>
           <text>ESTABLISHMENT. &#x2013;  There is hereby established within the executive branch of the government of the District of Columbia an Office of the Chief Financial Officer of the District of Columbia (hereafter referred to as the 'Office'), which shall be headed by the Chief Financial Officer of the District of Columbia (hereafter referred to as the 'Chief Financial Officer').</text>
         </level>
         <level>
           <num>(2)</num>
-          <text>ORGANIZATIONAL ANALYSIS. &#x2013; </text>
+          <text>ORGANIZATIONAL ANALYSIS. &#x2013;</text>
           <level>
             <num>(A)</num>
             <text>OFFICE OF BUDGET AND PLANNING. &#x2013;  The name of the Office of</text>
@@ -621,10 +621,10 @@
           <text>ANNUAL BUDGET SUBMISSION. &#x2013;  The Chief Financial Officer shall prepare and annually submit to the Mayor of the District of Columbia, for inclusion in the annual budget of the District of Columbia government for a fiscal year, annual estimates of the expenditures and appropriations necessary for the year for the operation of the Office and all other District of Columbia accounting, budget, and financial management personnel (including personnel of executive branch independent agencies) that report to the Office pursuant to this Act.</text>
           <level>
             <num>(b)</num>
-            <text>[D.C. Official Code &#xA7; 1-204.24b] APPOINTMENT OF THE CHIEF FINANCIAL OFFICER. &#x2013; </text>
+            <text>[D.C. Official Code &#xA7; 1-204.24b] APPOINTMENT OF THE CHIEF FINANCIAL OFFICER. &#x2013;</text>
             <level>
               <num>(1)</num>
-              <text>APPOINTMENT. &#x2013; </text>
+              <text>APPOINTMENT. &#x2013;</text>
               <level>
                 <num>(A)</num>
                 <text>IN GENERAL. &#x2013;  The Chief Financial Officer shall be appointed by the Mayor with the advice and consent, by resolution, of the Council. Upon confirmation by the</text>
@@ -653,7 +653,7 @@
             </level>
             <level>
               <num>(2)</num>
-              <text>TERM. &#x2013; </text>
+              <text>TERM. &#x2013;</text>
               <level>
                 <num>(A)</num>
                 <text>IN GENERAL. &#x2013;  All appointments made after June 30, 2007, shall be for a term of 5 years, except for appointments made for the remainder of unexpired terms. The appointments shall have an anniversary date of July 1.</text>
@@ -710,7 +710,7 @@
             </level>
             <level>
               <num>(5)</num>
-              <text>Preparing and submitting to the Mayor and the Council, with the approval of the Authority during a control year, and making public &#x2013; </text>
+              <text>Preparing and submitting to the Mayor and the Council, with the approval of the Authority during a control year, and making public &#x2013;</text>
               <level>
                 <num>(A)</num>
                 <text>annual estimates of all revenues of the District of Columbia (without regard to the source of such revenues), including proposed revenues, which shall be binding on the Mayor and the Council for purposes of preparing and submitting the budget of the District government for the year under part D of this title, except that the Mayor and the Council may prepare the budget based on estimates of revenues which are lower than those prepared by the Chief Financial Officer; and</text>
@@ -827,7 +827,7 @@
             </level>
             <level>
               <num>(28)</num>
-              <text>With respect to attorneys in special education cases brought under the Individuals with Disabilities Education Act in the District of Columbia during fiscal year 2006 and each succeeding fiscal year &#x2013; </text>
+              <text>With respect to attorneys in special education cases brought under the Individuals with Disabilities Education Act in the District of Columbia during fiscal year 2006 and each succeeding fiscal year &#x2013;</text>
               <level>
                 <num>(A)</num>
                 <text>requiring such attorneys to certify in writing that the attorney or representative of the attorney rendered any and all services for which the attorney received an award in such a case, including those received under a settlement agreement or as part of an administrative proceeding, from the District of Columbia;</text>
@@ -862,7 +862,7 @@
               </level>
               <level>
                 <num>(D)</num>
-                <text>Monthly reports reflecting a detailed summary analysis of all District of Columbia government investments, including &#x2013; </text>
+                <text>Monthly reports reflecting a detailed summary analysis of all District of Columbia government investments, including &#x2013;</text>
                 <level>
                   <num>(i)</num>
                   <text>the total of long-term and short-term investments;</text>
@@ -881,7 +881,7 @@
                 </level>
                 <level>
                   <num>(v)</num>
-                  <text>an analysis of cash utilization, including &#x2013; </text>
+                  <text>an analysis of cash utilization, including &#x2013;</text>
                   <level>
                     <num>(I)</num>
                     <text>comparisons of budgeted percentages of total cash to be invested with actual percentages of cash invested and the dollar amounts;</text>
@@ -898,7 +898,7 @@
               </level>
               <level>
                 <num>(E)</num>
-                <text>Monthly reports reflecting a detailed summary analysis of long-term and short-term borrowings inclusive of debt as authorized by section 603 [D.C. Official Code &#xA7; 1-206.03], in the current fiscal year and the amount of debt for each succeeding fiscal year not to exceed 5 years. All such reports shall reflect &#x2013; </text>
+                <text>Monthly reports reflecting a detailed summary analysis of long-term and short-term borrowings inclusive of debt as authorized by section 603 [D.C. Official Code &#xA7; 1-206.03], in the current fiscal year and the amount of debt for each succeeding fiscal year not to exceed 5 years. All such reports shall reflect &#x2013;</text>
                 <level>
                   <num>(i)</num>
                   <text>the amount of debt outstanding by type of instrument;</text>
@@ -928,7 +928,7 @@
           </level>
           <level>
             <num>(f)</num>
-            <text>DEFINITIONS. &#x2013;  For purposes of this section (and sections 424a and 424b) [D.C. Official Code &#xA7;' 1-204.24. 1-204.25, and 1-204.26] &#x2013; </text>
+            <text>DEFINITIONS. &#x2013;  For purposes of this section (and sections 424a and 424b) [D.C. Official Code &#xA7;' 1-204.24. 1-204.25, and 1-204.26] &#x2013;</text>
           </level>
         </level>
         <level>
@@ -942,12 +942,12 @@
         <level>
           <num>(3)</num>
           <text>the term 'District government' has the meaning given such term under section 305(5) of such Act [D.C. Official Code &#xA7; 47-393(5)].</text>
-          <text>AUTHORITY OF CHIEF FINANCIAL OFFICER OVER PERSONNEL OF OFFICE AND OTHER FINANCIAL PERSONNEL</text>
         </level>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>424a</num>
+        <heading>AUTHORITY OF CHIEF FINANCIAL OFFICER OVER PERSONNEL OF OFFICE AND OTHER FINANCIAL PERSONNEL</heading>
         <text>[D.C. Official Code &#xA7; 1-204.25] IN GENERAL. &#x2013;  Notwithstanding any provision of law or regulation (including any law or regulation providing for collective</text>
         <text>bargaining or the enforcement of any collective bargaining agreement), employees of the Office of the Chief Financial Officer of the District of Columbia, including personnel described in subsection (b), shall be appointed by, shall serve at the pleasure of, and shall act under the direction and control of the Chief Financial Officer of the District of Columbia, and shall be considered at-will employees not covered by the District of Columbia Merit Personnel Act of 1978, except that nothing in this section may be construed to prohibit the Chief Financial Officer from entering into a collective bargaining agreement governing such employees and personnel or to prohibit the enforcement of such an agreement as entered into by the Chief Financial Officer.</text>
         <level>
@@ -968,7 +968,7 @@
         </level>
         <level>
           <num>(c)</num>
-          <text>APPOINTMENT OF CERTAIN EXECUTIVE BRANCH AGENCY CHIEF FINANCIAL OFFICERS. &#x2013; </text>
+          <text>APPOINTMENT OF CERTAIN EXECUTIVE BRANCH AGENCY CHIEF FINANCIAL OFFICERS. &#x2013;</text>
           <level>
             <num>(1)</num>
             <text>IN GENERAL. &#x2013;  The Chief Financial Officers and Associate Chief Financial Officers of all District of Columbia executive branch subordinate and independent agencies (other than those of a subordinate office of the Office) shall be appointed by the Chief Financial Officer, in consultation with the agency head, where applicable. The appointment shall be made from a list of qualified candidates developed by the Chief Financial Officer.</text>
@@ -985,13 +985,13 @@
         <level>
           <num>(e)</num>
           <text>INAPPLICABILITY TO WATER AND SEWER AUTHORITY.B The authority of the Chief Financial Officer under this section does not apply to personnel of the District of Columbia Water and Sewer Authority established pursuant to the Water and Sewer Authority Establishment and Department of Public Works Reorganization Act of 1996 [D.C. Official Code &#xA7; 34-2201.01 passim].</text>
-          <text>PROCUREMENT AUTHORITY OF THE CHIEF FINANCIAL OFFICER</text>
         </level>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>424b</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.26] </dc-code-parallel-citation>
+        <heading>PROCUREMENT AUTHORITY OF THE CHIEF FINANCIAL OFFICER</heading>
         <text>The Chief Financial Officer shall carry out</text>
         <text>procurement of goods and services for the Office of the Chief Financial Officer through a procurement office or division which shall operate independently of, and shall not be governed by, the Office of Contracting and Procurement established under the District of Columbia Procurement Practices Act of 1986 [1985] [D.C. Official Code &#xA7; 2-301.01 et seq.]or any successor office, except the provisions applicable under such Act to procurement carried out by the Chief Procurement Officer established by section 105 of such Act [D.C. Official Code &#xA7; 2-301.05] or any successor office shall apply with respect to the procurement carried out by the Chief Financial Officer's procurement office or division.</text>
       </level>
@@ -1001,11 +1001,11 @@
       <num>C</num>
       <heading>THE JUDICIARY</heading>
       <text>PART C -- THE JUDICIARY</text>
-      <text>JUDICIAL POWERS</text>
       <level type="toc">
         <prefix>Section</prefix>
         <num>431</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; ' 1-204.31] </dc-code-parallel-citation>
+        <heading>JUDICIAL POWERS</heading>
         <text>The judicial power of the District is vested in the District of Columbia Court of Appeals and the Superior Court of the District of Columbia. The Superior Court has jurisdiction of any civil action or other matter (at law or in equity) brought in the District and of any criminal case under any law applicable exclusively to the District. The Superior Court has no jurisdiction over any civil or criminal matter over which a United States court has exclusive jurisdiction pursuant to an Act of Congress. The Court of Appeals has jurisdiction of appeals from the Superior Court and, to the extent provided by law, to review orders and decisions of the Mayor, the Council, or any agency of the District. The District of Columbia courts shall also have jurisdiction over any other matters granted to the District of Columbia courts by other provisions of law.</text>
         <level>
           <num>(b)</num>
@@ -1085,13 +1085,13 @@
         <level>
           <num>(g)</num>
           <text>The Tenure Commission shall have the power to suspend, retire, or remove a judge of a District of Columbia court as provided in section 432 [D.C. Official Code &#xA7; 1-204.32] and to make recommendations regarding the appointment of senior judges of the District of Columbia courts as provided in section 11-1504 of the District of Columbia [Official] Code.</text>
-          <text>REMOVAL, SUSPENSION, AND INVOLUNTARY RETIREMENT</text>
         </level>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>432</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.32] </dc-code-parallel-citation>
+        <heading>REMOVAL, SUSPENSION, AND INVOLUNTARY RETIREMENT</heading>
         <text>A judge of a District of Columbia court shall be removed from office upon the filing in the District of Columbia Court of Appeals by the Tenure Commission of an order of removal certifying the entry, in any court within the United States, of a final judgment of conviction of a crime which is punishable as a felony under Federal law or which would be a felony in the District.</text>
         <level>
           <num>(2)</num>
@@ -1143,13 +1143,13 @@
         <level>
           <num>(3)</num>
           <text>A judge of a District of Columbia court shall be suspended from all or part of the judge's judicial duties, with salary, if the Tenure Commission, upon concurrence of five members, (A) orders a hearing for the removal or retirement of the judge pursuant to this subchapter and determines that such suspension is in the interest of the administration of justice, and (B) files an order of suspension in the District of Columbia Court of Appeals. The suspension shall terminate as specified in the order (which may be modified, as appropriate, by the Tenure Commission) but in no event later than the termination of all appeals.</text>
-          <text>NOMINATION AND APPOINTMENT OF JUDGES</text>
         </level>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>433</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.33] </dc-code-parallel-citation>
+        <heading>NOMINATION AND APPOINTMENT OF JUDGES</heading>
         <text>Except as provided in section 434(d)(1) [D.C. Official Code &#xA7; 1-204.34(d)(1)], the President shall nominate, from the list of persons recommended by the District of Columbia Judicial Nomination Commission established under section 434 [D.C. Official Code &#xA7; 1-204.34], and, by and with the advice and consent of the Senate, appoint all judges of the District of Columbia courts.</text>
         <level>
           <num>(b)</num>
@@ -1180,13 +1180,13 @@
           <num>(c)</num>
           <text>Not less than six months prior to the expiration of the judge's term of office, any judge of the District of Columbia courts may file with the Tenure Commission a declaration of candidacy for reappointment. If a declaration is not so filed by any judge, a vacancy shall result from the expiration of the term of office and shall be filled by appointment as provided in subsections (a) and (b). If a declaration is so filed, the Tenure Commission shall, not less than sixty days prior to the expiration of the declaring candidate's term of office, prepare and submit to the President a written evaluation of the declaring candidate's performance during the present term of office and the candidate's fitness for reappointment to another term. If the Tenure Commission determines the declaring candidate to be well qualified for reappointment to another term, then the term of such declaring candidate shall be automatically extended for another full term, subject to mandatory retirement, suspension, or removal. If the Tenure Commission determines the declaring candidate to be qualified for reappointment to another term, then the President may nominate such</text>
           <text>candidate, in which case the President shall submit to the Senate for advice and consent the renomination of the declaring candidate as judge. If the President determines not to so nominate such declaring candidate, the President shall nominate another candidate for such position only in accordance with the provisions of subsections (a) and (b). If the Tenure Commission determines the declaring candidate to be unqualified for reappointment to another term, then the President shall not submit to the Senate for advice and consent the renomination of the declaring candidate as judge and such judge shall not be eligible for reappointment or appointment as a judge of a District of Columbia court.</text>
-          <text>DISTRICT OF COLUMBIA JUDICIAL NOMINATION COMMISSION</text>
         </level>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>434</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.34] </dc-code-parallel-citation>
+        <heading>DISTRICT OF COLUMBIA JUDICIAL NOMINATION COMMISSION</heading>
         <text>There is established for the District of Columbia the District of Columbia Judicial Nomination Commission (hereafter in this section referred to as the "Commission"). The Commission shall consist of seven members selected in accordance with the provisions of subsection (b) [of this section]. Such members shall serve for terms of six years, except that the member selected in accordance with subsection (b)(4)(A) shall serve for five years; of the members first selected in accordance with subsection (b)(4)(B), one member shall serve for three years and one member shall serve for six years; of the members first selected in accordance with subsection (b)(4)(C), one member shall serve for a term of three years and one member shall serve for five years; the member first selected in accordance with subsection (b)(4)(D) shall serve for six years; and the member first appointed in accordance with subsection (b)(4)(E) shall serve for six years. In making the respective first appointments according to subsections (b)(4)(B) and (b)(4)(C), the Mayor and the Board of Governors of the unified District of Columbia Bar shall designate, at the time of such appointments, which member shall serve for the shorter term and which member shall serve for the longer term.</text>
         <level>
           <num>(b) (1)</num>
@@ -1278,11 +1278,11 @@
       <num>C-i</num>
       <heading>THE ATTORNEY GENERAL</heading>
       <text>PART C-i -- THE ATTORNEY GENERAL</text>
-      <text>ELECTION OF THE ATTORNEY GENERRAL</text>
       <level type="toc">
         <prefix>Section</prefix>
         <num>435</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.35] </dc-code-parallel-citation>
+        <heading>ELECTION OF THE ATTORNEY GENERRAL</heading>
         <text>The Attorney General for the District of Columbia shall be elected on a partisan basis by the registered qualified electors of the District. Nothing in this section shall prevent a candidate for the position of Attorney General from belonging to a political party.</text>
         <level>
           <num>(b)(1)</num>
@@ -1316,16 +1316,16 @@
         <num>1</num>
         <heading>Budget and Financial Management</heading>
         <text>Subpart 1 -- Budget and Financial Management</text>
-        <text>FISCAL YEAR</text>
         <level type="toc">
           <prefix>Section</prefix>
           <num>441</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.41] </dc-code-parallel-citation>
+          <heading>FISCAL YEAR</heading>
           <text>In general &#x2013;  Except as provided in</text>
           <text>subsection (b) [of this section], the fiscal year of the District shall, beginning on October 1, 1976, commence on the first day of October of each year and shall end on the 30th day of September of the succeeding calendar year. Such fiscal year shall also constitute the budget and accounting year.</text>
           <level>
             <num>(b)</num>
-            <text>Exceptions. &#x2013; </text>
+            <text>Exceptions. &#x2013;</text>
             <level>
               <num>(1)</num>
               <text>Armory Board. &#x2013;  The fiscal year for the Armory Board shall begin on the first day of January and shall end on the thirty-first day of December of each calendar year.</text>
@@ -1333,7 +1333,6 @@
             <level>
               <num>(2)</num>
               <text>Schools. &#x2013;  Effective with respect to fiscal year 2007 and each succeeding fiscal year, the fiscal year for the District of Columbia Public Schools (including public charter schools) and the University of the District of Columbia may begin on the first day of July and end on the thirtieth day of June of each calendar year.</text>
-              <text>SUBMISSION OF ANNUAL BUDGET</text>
             </level>
           </level>
         </level>
@@ -1341,6 +1340,7 @@
           <prefix>Section</prefix>
           <num>442</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.42] </dc-code-parallel-citation>
+          <heading>SUBMISSION OF ANNUAL BUDGET</heading>
           <text>At such time as the Council may direct, the Mayor shall prepare and submit to the Council each year, and make available to the public, an annual budget for the District of Columbia government which shall include:</text>
           <level>
             <num>(1)</num>
@@ -1381,7 +1381,6 @@
             <level>
               <num>(d)</num>
               <text>The Mayor shall prepare and submit to the Council a proposed supplemental or deficiency budget recommendation under subsection (c) [of this section] if the Council by resolution requests the Mayor to submit such a recommendation.</text>
-              <text>MULTIYEAR PLAN</text>
             </level>
           </level>
         </level>
@@ -1389,6 +1388,7 @@
           <prefix>Section</prefix>
           <num>443</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; ' 1-204.43] </dc-code-parallel-citation>
+          <heading>MULTIYEAR PLAN</heading>
           <text>The Mayor shall prepare and include in the annual budget a multiyear plan for all agencies included in the District budget, for all sources of funding, and for such program categories as the Mayor identifies. Such plan shall be based on the actual experience of the immediately preceding three fiscal years, on the approved current fiscal year budget, and on estimates for at least the four succeeding fiscal years. The plan shall include, but not be limited to, provisions identifying:</text>
           <level>
             <num>(1)</num>
@@ -1421,13 +1421,13 @@
           <level>
             <num>(8)</num>
             <text>Total debt service payments in each fiscal year in which debt service payments must be made for all bonds which have been or will be issued, and all loans from the United States Treasury which have been or will be received, to finance the total cost on a full funding basis of all projects listed in the capital improvements plan prepared under section 444 [D.C. Official Code &#xA7; 1-204.44]; and for each such fiscal year, the percentage relationship of the total debt service payments (with payments for issued and proposed bonds and loans from the United States Treasury, received or proposed, separately identified) to the bonding limitation for the current and forthcoming fiscal year as specified in section 603(b) [D.C. Official Code &#xA7; 1-206.03(b)].</text>
-            <text>MULTIYEAR CAPITAL IMPROVEMENT PLAN</text>
           </level>
         </level>
         <level type="toc">
           <prefix>Section</prefix>
           <num>444</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.44] </dc-code-parallel-citation>
+          <heading>MULTIYEAR CAPITAL IMPROVEMENT PLAN</heading>
           <text>Multiyear capital improvements plan. The Mayor shall prepare and include in the annual budget a multiyear capital improvements plan for all agencies of the District which shall be based upon the approved current fiscal year budget and shall include:</text>
           <level>
             <num>(1)</num>
@@ -1444,42 +1444,42 @@
           <level>
             <num>(4)</num>
             <text>Appropriate maps or other graphics.</text>
-            <text>DISTRICT OF COLUMBIA COURTS' BUDGET</text>
           </level>
         </level>
         <level type="toc">
           <prefix>Section</prefix>
           <num>445</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.45] </dc-code-parallel-citation>
+          <heading>DISTRICT OF COLUMBIA COURTS' BUDGET</heading>
           <text>The District of Columbia courts shall prepare and annually submit to the Director of the Office of Management and Budget, for inclusion in the annual budget, annual estimates of the expenditures and appropriations necessary for the maintenance and operation of the District of Columbia court system. The courts shall submit as part of their budgets both a multiyear plan and a multiyear capital improvements plan and shall submit a statement presenting qualitative and quantitative descriptions of court activities and the status of efforts to comply with reports of the Comptroller General of the United States.</text>
-          <text>WATER AND SEWER AUTHORITY BUDGET</text>
         </level>
         <level type="toc">
           <prefix>Section</prefix>
           <num>445A</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.45a] </dc-code-parallel-citation>
-          <heading>IN GENERAL.</heading>
+          <heading>WATER AND SEWER AUTHORITY BUDGET</heading>
           <text>The District of Columbia Water and Sewer Authority established pursuant to the Water and Sewer Authority Establishment and Department of Public Works Reorganization Act of 1996 shall prepare and annually submit to the Mayor, for inclusion in the annual budget, annual estimates of the expenditures and appropriations necessary for the operation of the Authority for the year. All such estimates shall be forwarded by the Mayor to the Council for its action pursuant to sections 446 and 603(c) [D.C. Official Code &#xA7;' ' 1-204.46 and ' 1-206.03(c)], without revision but subject to his recommendations. Notwithstanding any other provision of this Act, the Council may comment or make recommendations concerning such annual estimates, but shall have no authority under this Act to revise such estimates.</text>
+          <text>IN GENERAL.</text>
           <level>
             <num>(b)</num>
             <heading>PERMITTING EXPENDITURE OF EXCESS REVENUES FOR CAPITAL PROJECTS IN EXCESS OF BUDGET.</heading>
             <text>Notwithstanding the amount appropriated for the District of Columbia Water and Sewer Authority for capital projects for a fiscal year, if the revenues of the Authority for the year exceed the estimated revenues of the Authority provided in the annual budget of the District of Columbia for the fiscal year, the Authority may obligate or</text>
             <text>expend an additional amount for capital projects during the year equal to the amount of such excess revenues.</text>
-            <text>ENACTMENT OF APPROPRIATIONS BY CONGRESS</text>
           </level>
         </level>
         <level type="toc">
           <prefix>Section</prefix>
           <num>446</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.46] </dc-code-parallel-citation>
+          <heading>ENACTMENT OF APPROPRIATIONS BY CONGRESS</heading>
           <text>The Council, within 56 calendar days after receipt of the budget proposal from the Mayor, and after public hearing, shall by act adopt the annual budget for the District of Columbia government. Any supplements thereto shall also be adopted by act by the Council after public hearing. Such budget so adopted shall be submitted by the Mayor to the President for transmission by him to the Congress. Except as provided in section 445A(b), section 446A , section 446B, section 467(d), section 471(c), section 472(d)(2), section 475(e)(2), section 483(d), and section 490(f), (g), (h)(3), and (i)(3), [D.C. Official Code &#xA7;' ' 1-204.45a(b), ' 1-204.67(d), ' 1-204.71(c), ' 1-204.72(d)(2), ' 1-204.75(e)(2), ' 1-204.83(d), and subsections (f), (g), (h)(3), and (i)(3) of ' ' 1-204.90] no amount may be obligated or expended by any officer or employee of the District of Columbia government unless such amount has been approved by Act of Congress, and then only according to such Act. Notwithstanding any other provision of this Act, the Mayor shall not transmit any annual budget or amendments or supplements thereto, to the President of the United States until the completion of the budget procedures contained in this Act. After the adoption of the annual budget for a fiscal year (beginning with the annual budget for fiscal year 1995), no reprogramming of amounts in the budget may occur unless the Mayor submits to the Council a request for such reprogramming and the Council approves the request, but only if any additional expenditures provided under such request for an activity are offset by reductions in expenditures for another activity.</text>
-          <text>PERMITTING INCREASE IN AMOUNT APPROPRIATED AS LOCAL FUNDS DURING A FISCAL YEAR</text>
         </level>
         <level type="toc">
           <prefix>Section</prefix>
           <num>446A</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.46a] </dc-code-parallel-citation>
-          <text>IN GENERAL. &#x2013;  Notwithstanding the fourth sentence of section 446 [D.C. Official Code &#xA7; 1-204.46], to account for an unanticipated growth of revenue collections, the amount appropriated as District of Columbia funds under budget approved by Act of Congress as provided in such section may be increased &#x2013; </text>
+          <heading>PERMITTING INCREASE IN AMOUNT APPROPRIATED AS LOCAL FUNDS DURING A FISCAL YEAR</heading>
+          <text>IN GENERAL. &#x2013;  Notwithstanding the fourth sentence of section 446 [D.C. Official Code &#xA7; 1-204.46], to account for an unanticipated growth of revenue collections, the amount appropriated as District of Columbia funds under budget approved by Act of Congress as provided in such section may be increased &#x2013;</text>
           <level>
             <num>(1)</num>
             <text>by an aggregate amount of not more than 25 percent, in the case of amounts allocated under the budget as 'Other-Type Funds'; and</text>
@@ -1492,7 +1492,7 @@
               <text>CONDITIONS. &#x2013;  The District of Columbia may obligate and expend any increase in the amount of funds authorized under this section only in accordance with the following conditions:</text>
               <level>
                 <num>(1)</num>
-                <text>The Chief Financial Officer of the District of Columbia shall certify &#x2013; </text>
+                <text>The Chief Financial Officer of the District of Columbia shall certify &#x2013;</text>
                 <level>
                   <num>(A)</num>
                   <text>the increase in revenue; and</text>
@@ -1519,7 +1519,6 @@
             <level>
               <num>(c)</num>
               <text>EFFECTIVE DATE. &#x2013;  This section shall apply with respect to fiscal years 2006 through 2007.</text>
-              <text>ACCEPTANCE OF GRANT AMOUNTS NOT INCLUDED IN ANNUAL BUDGET</text>
             </level>
           </level>
         </level>
@@ -1527,13 +1526,14 @@
           <prefix>Section</prefix>
           <num>446B</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.46b] </dc-code-parallel-citation>
+          <heading>ACCEPTANCE OF GRANT AMOUNTS NOT INCLUDED IN ANNUAL BUDGET</heading>
           <text>AUTHORITY TO ACCEPT, OBLIGATE, AND EXPEND AMOUNTS. &#x2013;  Notwithstanding the fourth sentence of section 446 [D.C. Official Code &#xA7; 1-204.46], the Mayor, in consultation with the Chief Financial Officer of the District of Columbia may accept, obligate, and expend Federal, private, and other grants received by the District government that are not reflected in the budget approved by Act of Congress as provided in such section.</text>
           <level>
             <num>(b)</num>
-            <text>CONDITIONS. &#x2013; </text>
+            <text>CONDITIONS. &#x2013;</text>
             <level>
               <num>(1)</num>
-              <text>ROLE OF CHIEF FINANCIAL OFFICER; APPROVAL BY COUNCIL. &#x2013;  No Federal, private, or other grant may be accepted, obligated, or expended pursuant to subsection (a) until &#x2013; </text>
+              <text>ROLE OF CHIEF FINANCIAL OFFICER; APPROVAL BY COUNCIL. &#x2013;  No Federal, private, or other grant may be accepted, obligated, or expended pursuant to subsection (a) until &#x2013;</text>
               <level>
                 <num>(A)</num>
                 <text>the Chief Financial Officer submits to the Council a report setting forth detailed information regarding such grant; and</text>
@@ -1545,7 +1545,7 @@
             </level>
             <level>
               <num>(2)</num>
-              <text>DEEMED APPROVAL BY COUNCIL. &#x2013;  For purposes of paragraph (1)(B), the Council shall be deemed to have reviewed and approved the acceptance, obligation, and expenditure of a grant if &#x2013; </text>
+              <text>DEEMED APPROVAL BY COUNCIL. &#x2013;  For purposes of paragraph (1)(B), the Council shall be deemed to have reviewed and approved the acceptance, obligation, and expenditure of a grant if &#x2013;</text>
               <level>
                 <num>(A)</num>
                 <text>no written notice of disapproval is filed with the Secretary of the Council within 14 calendar days of the receipt of the report from the Chief Financial Officer under paragraph (1)(A); or</text>
@@ -1572,20 +1572,20 @@
           <level>
             <num>(f)</num>
             <text>EFFECTIVE DATE. &#x2013;  This section shall apply with respect to fiscal year 2006 and each succeeding fiscal year.</text>
-            <text>CONSISTENCY OF BUDGET, ACCOUNTING, AND PERSONNEL SYSTEMS</text>
           </level>
         </level>
         <level type="toc">
           <prefix>Section</prefix>
           <num>447</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.47] </dc-code-parallel-citation>
+          <heading>CONSISTENCY OF BUDGET, ACCOUNTING, AND PERSONNEL SYSTEMS</heading>
           <text>The Mayor shall implement appropriate procedures to insure that budget, accounting, and personnel control systems and structures are synchronized for budgeting and control purposes on a continuing basis. No employee shall be hired on a full-time or part-time basis unless such position is authorized by act of Congress. Employees shall be assigned in accordance with the program, organization, and fund categories specified in the act of Congress authorizing such position. Hiring of temporary employees and temporary employee transfers among programs shall be consistent with applicable acts of Congress and reprogramming procedures to insure that costs are accurately associated with programs and sources of funding.</text>
-          <text>FINANCIAL DUTIES OF THE MAYOR</text>
         </level>
         <level type="toc">
           <prefix>Section</prefix>
           <num>448</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.48] </dc-code-parallel-citation>
+          <heading>FINANCIAL DUTIES OF THE MAYOR</heading>
           <text>Subject to the limitations in section 603 [D.C. Official Code &#xA7; 1-206.03] and except to the extent provided under section 424(d) [D.C. Official Code &#xA7; 1-204.24d], the Mayor shall have charge of the administration of the financial affairs of the District and to that end he shall:</text>
           <level>
             <num>(1)</num>
@@ -1646,7 +1646,6 @@
             <level>
               <num>(c)</num>
               <text>The financial statement and report for a fiscal year prepared and submitted for purposes of subsection (a)(4) shall be audited by the Inspector General of the District of Columbia (in coordination with the Chief Financial Officer of the District of Columbia) pursuant to section 208(a)(4) of the District of Columbia Procurement Practices Act of 1985 [D.C. Official Code &#xA7; 2-302.08(a)(4)], and shall include as a basic financial statement a comparison of audited actual year-end results with the revenues submitted in the budget document for such year and the appropriations enacted into law for such year using the format, terminology, and classifications contained in the law making the appropriations for the year and its legislative history.</text>
-              <text>ACCOUNTING SUPERVISION AND CONTROL</text>
             </level>
           </level>
         </level>
@@ -1654,6 +1653,7 @@
           <prefix>Section</prefix>
           <num>449</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.49] </dc-code-parallel-citation>
+          <heading>ACCOUNTING SUPERVISION AND CONTROL</heading>
           <text>Except to the extent provided under section 424(d) [D.C. Official Code &#xA7; 1-204.24d], the Mayor shall:</text>
           <level>
             <num>(1)</num>
@@ -1670,21 +1670,21 @@
           <level>
             <num>(4)</num>
             <text>Perform internal audits of accounts and operations and agency records of the District government, including the examination of any accounts or records of financial transactions, giving due consideration to the effectiveness of accounting systems, internal control, and related administrative practices of the respective agencies.</text>
-            <text>GENERAL AND SPECIAL FUNDS</text>
           </level>
         </level>
         <level type="toc">
           <prefix>Section</prefix>
           <num>450</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.50] </dc-code-parallel-citation>
+          <heading>GENERAL AND SPECIAL FUNDS</heading>
           <text>The General Fund of the District shall be composed of those District revenues which on the effective date of this title [December 24, 1973] are paid into the Treasury of the United States and credited either to the General Fund of the District or its miscellaneous receipts, but shall not include any revenues which are applied by law to any special fund existing on the date of enactment of this title [December 24, 1973]. The Council may from time to time establish such additional special funds as may be necessary for the efficient operation of the government of the District. All money received by any agency, officer, or employee of the District in its or his official capacity shall belong to the District government and shall be paid promptly to the Mayor for deposit in the appropriate fund, except that all money received by the District of Columbia Courts shall be deposited in the Treasury of the United States or the Crime Victims Fund.</text>
-          <text>RESERVE FUNDS</text>
         </level>
         <level type="toc">
           <prefix>Section</prefix>
           <num>450A</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.50a] </dc-code-parallel-citation>
-          <heading>Emergency Reserve Fund.</heading>
+          <heading>RESERVE FUNDS</heading>
+          <text>Emergency Reserve Fund.</text>
           <level>
             <num>(1)</num>
             <heading>In general.</heading>
@@ -1803,7 +1803,6 @@
               <num>(c)</num>
               <heading>Quarterly Reports.</heading>
               <text>The Chief Financial Officer shall submit a quarterly report to the Mayor, the Council, the District of Columbia Financial Responsibility and Management Assistance Authority (in the case of a fiscal year which is a control year, as defined in section 305(4) of the District of Columbia Financial Responsibility and Management Assistance Act of 1995 [D.C. Official Code &#xA7; 47-393(4)]), and the Committees on Appropriations of the Senate and House of Representatives that includes a monthly statement on the balance and activities of the contingency and emergency reserve funds.</text>
-              <text>COMPREHENSIVE FINANCIAL MANAGEMENT POLICY</text>
             </level>
           </level>
         </level>
@@ -1811,6 +1810,7 @@
           <prefix>Section</prefix>
           <num>450B</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.50b] </dc-code-parallel-citation>
+          <heading>COMPREHENSIVE FINANCIAL MANAGEMENT POLICY</heading>
           <text>Comprehensive Financial Management Policy The District of Columbia shall conduct its financial management in accordance with a comprehensive financial management policy.</text>
           <level>
             <num>(b)</num>
@@ -1882,7 +1882,6 @@
               <num>(4)</num>
               <heading>Congress.</heading>
               <text>Following review of the financial management policy by the Authority under paragraph (3), the Authority shall submit the policy to the Committees on Appropriations of the Senate and House of Representatives, the Committee on Government Reform of the House of Representatives, and the Committee on Governmental Affairs of the Senate for review, and the policy shall take effect 30 days after the date the policy is submitted under this paragraph.</text>
-              <text>SPECIAL RULES REGARDING CERTAIN CONTRACTS</text>
             </level>
           </level>
         </level>
@@ -1890,8 +1889,9 @@
           <prefix>Section</prefix>
           <num>SEC. 451</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.51] </dc-code-parallel-citation>
-          <heading>Contracts Extending Beyond One Year.</heading>
+          <heading>SPECIAL RULES REGARDING CERTAIN CONTRACTS</heading>
           <text>No contract involving expenditures out of an appropriation which is available for more than one year shall be made for a period of more than five years unless, with respect to a particular contract, the Council, by a two-thirds vote of its members present and voting, authorizes the extension of such period for such contract. Such contracts shall be made pursuant to criteria established by act of the Council.</text>
+          <text>Contracts Extending Beyond One Year.</text>
           <level>
             <num>(b)</num>
             <heading>Contracts Exceeding Certain Amount.</heading>
@@ -1960,7 +1960,6 @@
             <level>
               <num>(3)</num>
               <text>At the option of the Council, any contract for a highway improvement project carried out under title 23, United States Code.</text>
-              <text>ANNUAL BUDGET FOR THE BOARD OF EDUCATION</text>
             </level>
           </level>
         </level>
@@ -1968,13 +1967,14 @@
           <prefix>Section</prefix>
           <num>452</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.52] </dc-code-parallel-citation>
+          <heading>ANNUAL BUDGET FOR THE BOARD OF EDUCATION</heading>
           <text>[Repealed.]</text>
-          <text>REDUCTIONS IN BUDGETS OF INDEPENDENT AGENCIES.</text>
         </level>
         <level type="toc">
           <prefix>Section</prefix>
           <num>453</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7;1-204.53] </dc-code-parallel-citation>
+          <heading>REDUCTIONS IN BUDGETS OF INDEPENDENT AGENCIES.</heading>
           <text>In accordance with subsection (b) of this section and except as provided in subsection (c) of this section, the Mayor may reduce amounts appropriated or otherwise made available to independent agencies of the District of Columbia (including the Board of Education) for a fiscal year if the Mayor determines that it is necessary to</text>
           <text>reduce such amounts to balance the District's budget for the fiscal year.</text>
           <level>
@@ -2008,11 +2008,11 @@
         <num>2</num>
         <heading>Audit</heading>
         <text>Subpart 2 -- Audit</text>
-        <text>DISTRICT OF COLUMBIA AUDITOR</text>
         <level type="toc">
           <prefix>Section</prefix>
           <num>455</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.55] </dc-code-parallel-citation>
+          <heading>DISTRICT OF COLUMBIA AUDITOR</heading>
           <text>There is established for the District of Columbia the Office of District of Columbia Auditor who shall be appointed by the Chairman, subject to the approval of a majority of the Council. The District of Columbia Auditor shall serve for a term of six years and shall be paid at a rate of compensation as may be established from time to time by the Council.</text>
           <level>
             <num>(b)</num>
@@ -2038,13 +2038,13 @@
           <level>
             <num>(g)</num>
             <text>This section shall not apply to the District of Columbia Courts or the accounts and operations thereof.</text>
-            <text>PERFORMANCE AND FINANCIAL ACCOUNTABILITY</text>
           </level>
         </level>
         <level type="toc">
           <prefix>Section</prefix>
           <num>456</num>
-          <heading>[D.C. Official Code &#xA7; 1-204.56a] PERFORMANCE ACCOUNTABILITY PLAN.</heading>
+          <heading>PERFORMANCE AND FINANCIAL ACCOUNTABILITY</heading>
+          <text>[D.C. Official Code &#xA7; 1-204.56a] PERFORMANCE ACCOUNTABILITY PLAN.</text>
           <level>
             <num>(1)</num>
             <heading>SUBMISSION OF ANNUAL PLAN.</heading>
@@ -2144,7 +2144,7 @@
                 <level>
                   <num>(A)</num>
                   <text>A comparison of actual to forecasted cash receipts and disbursements for each month of the quarter, as presented in the District's fiscal year consolidated cash forecast</text>
-                  <text> which shall be supported and accompanied by cash forecasts for the general fund and each of the District government's other funds other than the capital projects fund and trust and agency funds;</text>
+                  <text>which shall be supported and accompanied by cash forecasts for the general fund and each of the District government's other funds other than the capital projects fund and trust and agency funds;</text>
                 </level>
                 <level>
                   <num>(B)</num>
@@ -2196,11 +2196,11 @@
         <num>1</num>
         <heading>Borrowing</heading>
         <text>Subpart 1 -- Borrowing</text>
-        <text>DISTRICT'S AUTHORITY TO ISSUE AND REDEEM GENERAL OBLIGATION BONDS FOR CAPITAL PROJECTS</text>
         <level type="toc">
           <prefix>Section</prefix>
           <num>461</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.61] </dc-code-parallel-citation>
+          <heading>DISTRICT'S AUTHORITY TO ISSUE AND REDEEM GENERAL OBLIGATION BONDS FOR CAPITAL PROJECTS</heading>
           <text>General obligation bonds - Authority to issue; right to redeem.</text>
           <level>
             <num>(a) (1)</num>
@@ -2213,14 +2213,14 @@
           <level>
             <num>(b)</num>
             <text>The District may reserve the right to redeem any or all of its obligations before maturity in such manner and at such price as may be fixed by the Mayor prior to the issuance of such obligations.</text>
-            <text>CONTENTS OF BORROWING LEGISLATION AND ELECTIONS ON ISSUING GENERAL OBLIGATION BONDS</text>
           </level>
         </level>
         <level type="toc">
           <prefix>Section</prefix>
           <num>462</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.62] </dc-code-parallel-citation>
-          <heading>The Council may by act authorize the issuance of general obligation bonds for the purposes specified in section 461 [D.C. Official Code ' 1-204.61]. Such an Act shall contain, at least, provisions</heading>
+          <heading>CONTENTS OF BORROWING LEGISLATION AND ELECTIONS ON ISSUING GENERAL OBLIGATION BONDS</heading>
+          <text>The Council may by act authorize the issuance of general obligation bonds for the purposes specified in section 461 [D.C. Official Code ' 1-204.61]. Such an Act shall contain, at least, provisions</text>
           <level>
             <num>(1)</num>
             <text>Briefly describing each project to be financed by the Act;</text>
@@ -2252,7 +2252,6 @@
             <level>
               <num>(c)</num>
               <text>Notwithstanding section 602(c)(1) [D.C. Official Code &#xA7; 1-206.02(c)(1)], the provisions required by paragraph (6) of subsection (a) [of this section] to be included in any act authorizing the issuance of general obligation bonds shall take effect on the date of the enactment of such act.</text>
-              <text>PUBLICATION OF BORROWING LEGISLATION</text>
             </level>
           </level>
         </level>
@@ -2260,6 +2259,7 @@
           <prefix>Section</prefix>
           <num>463</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.63] </dc-code-parallel-citation>
+          <heading>PUBLICATION OF BORROWING LEGISLATION</heading>
           <text>After each act of the Council of the District of Columbia under section 462(a) [D.C. Official Code &#xA7; 1-204.62(a)] authorizing the issuance of general obligation bonds has taken effect, the Mayor shall publish such act at least once in at least 1 newspaper of general circulation within the District together with a notice that such act has taken effect. Each such notice shall be in substantially the following form:</text>
           <text>"NOTICE</text>
           <text>"The following act of the Council of the District of Columbia (published with this notice) authorizing the issuance of general obligation bonds has taken effect. As provided in the District of Columbia Self-Government and Governmental Reorganization Act, the time within which a suit, action, or proceeding questioning the validity of such bonds may be commenced expires at the end of the 20-day period beginning on the date of the first publication of this notice.</text>
@@ -2268,13 +2268,13 @@
           <level>
             <num>(b)</num>
             <text>Neither the failure to publish the notice provided for in subsection (a) [of this section] nor any error in any publication of such notice shall impair the effectiveness of the act of the Council authorizing the issuance of such bonds or the validity of any bond issued pursuant to such act.</text>
-            <text>SHORT PERIOD OF LIMITATION</text>
           </level>
         </level>
         <level type="toc">
           <prefix>Section</prefix>
           <num>464</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.64] </dc-code-parallel-citation>
+          <heading>SHORT PERIOD OF LIMITATION</heading>
           <text>At the end of the 20-day period beginning on the date of the first publication pursuant to the notice in section 463(a) [D.C. Official Code &#xA7; 1-204.63(a)] that an act authorizing the issuance of general obligation bonds has taken effect:</text>
           <level>
             <num>(1)</num>
@@ -2303,13 +2303,13 @@
             <text>performed and that the issue of bonds, of which this is one, together with all other</text>
             <text>indebtedness of the District of Columbia, is within every debt and other limit</text>
             <text>prescribed by law."</text>
-            <text>ISSUANCE OF GENERAL OBLIGATION BONDS</text>
           </level>
         </level>
         <level type="toc">
           <prefix>Section</prefix>
           <num>465</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.65] </dc-code-parallel-citation>
+          <heading>ISSUANCE OF GENERAL OBLIGATION BONDS</heading>
           <text>After an act of the Council authorizing the issuance of general obligation bonds under section 461(a) [D.C. Official Code &#xA7; 1-204.61(a)] takes effect, the Mayor may issue such general obligation bonds as authorized by such act of the Council. An issue of general obligation bonds may be all or any part of the aggregate principal amount of bonds authorized by such act.</text>
           <level>
             <num>(b)</num>
@@ -2318,23 +2318,23 @@
           <level>
             <num>(c)</num>
             <text>The general obligation bonds of each issue shall be executed by the manual or facsimile signature of such officials as may be designated to sign such bonds by the act of the Council authorizing the issuance of the bonds, except that at least one such signature shall be manual. Coupons attached to the bonds shall be authenticated by the facsimile signature of the Mayor unless the Council provides otherwise.</text>
-            <text>PUBLIC OR PRIVATE SALE</text>
           </level>
         </level>
         <level type="toc">
           <prefix>Section</prefix>
           <num>466</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.66] </dc-code-parallel-citation>
+          <heading>PUBLIC OR PRIVATE SALE</heading>
           <text>General obligation bonds issued under this part may be sold at private sale on a negotiated basis (in such manner as the Mayor may determine to be in the public interest), or may be sold at public sale upon sealed proposals after publication of a notice of such sale at least once not less than ten days prior to the date fixed for sale in a daily newspaper carrying municipal bond notices and devoted primarily to financial news or to the subject of state and municipal bonds published in the city of New York, (New York), and in 1 or more newspapers of general circulation published in the District. Such notice shall state, among other things, that no proposal shall be considered unless there is deposited with the District as a</text>
           <text>down-payment a certified check or cashier's check for an amount equal to at least two per centum of the par amount of general obligation bonds bid for, and the Mayor shall reserve the right to reject any and all bids.</text>
-          <text>AUTHORITY TO CREATE SECURITY INTERESTS IN DISTRICT REVENUES</text>
         </level>
         <level type="toc">
           <prefix>Section</prefix>
           <num>467</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.67]. </dc-code-parallel-citation>
-          <heading>IN GENERAL.</heading>
+          <heading>AUTHORITY TO CREATE SECURITY INTERESTS IN DISTRICT REVENUES</heading>
           <text>An act of the Council authorizing the issuance of general obligation bonds or notes under section 461(a), section 471(a), section 472(a), or section 475(a) [D.C. Official Code &#xA7;' 1-204.61(a), 1-204.71(a), 1-204.72(a), or 1-204.75(a)] may create a security interest in any District revenues as additional security for the payment of the bonds or notes authorized by such act.</text>
+          <text>IN GENERAL.</text>
           <level>
             <num>(b)</num>
             <heading>CONTENTS OF ACTS.</heading>
@@ -2393,11 +2393,11 @@
         <num>2</num>
         <heading>Short-Term Borrowing</heading>
         <text>Subpart 2 -- Short-Term Borrowing</text>
-        <text>BORROWING TO MEET APPROPRIATIONS</text>
         <level type="toc">
           <prefix>Section</prefix>
           <num>471</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.71]. </dc-code-parallel-citation>
+          <heading>BORROWING TO MEET APPROPRIATIONS</heading>
           <text>In the absence of unappropriated revenues available to meet appropriations made pursuant to section 446 [D.C. Official Code &#xA7; 1-204.46], the Council may by act authorize the issuance of general obligation notes. The total amount of all such general obligation notes originally issued during a fiscal year shall not exceed 2% of the total appropriations for the District for such fiscal year.</text>
           <level>
             <num>(b)</num>
@@ -2406,15 +2406,15 @@
           <level>
             <num>(c)</num>
             <text>The 4th sentence of section 446 [D.C. Official Code &#xA7; 1-204.46] shall not apply to any amount obligated or expended by the District for the payment of the principal of, interest on, or redemption premium for any general obligation note issued under subsection (a) [of this section].</text>
-            <text>BORROWING IN ANTICIPATION OF REVENUES</text>
           </level>
         </level>
         <level type="toc">
           <prefix>Section</prefix>
           <num>472</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.72] </dc-code-parallel-citation>
-          <heading>IN GENERAL.</heading>
+          <heading>BORROWING IN ANTICIPATION OF REVENUES</heading>
           <text>In anticipation of the collection or receipt of revenues for a fiscal year, the Council may by act authorize the issuance of general obligation notes for such fiscal year, to be known as revenue anticipation notes.</text>
+          <text>IN GENERAL.</text>
           <level>
             <num>(b)</num>
             <heading>LIMIT ON AGGREGATE NOTES OUTSTANDING.</heading>
@@ -2447,7 +2447,6 @@
               <heading>PAYMENTS NOT SUBJECT TO APPROPRIATION.</heading>
               <text>The fourth sentence</text>
               <text>of section 446 [D.C. Official Code &#xA7; 1-204.46] shall not apply to any amount obligated or expended by the District for the payment of the principal of, interest on, or redemption premium for any revenue anticipation note issued under subsection (a) [of this section].</text>
-              <text>NOTES REDEEMABLE PRIOR TO MATURITY</text>
             </level>
           </level>
         </level>
@@ -2455,21 +2454,22 @@
           <prefix>Section</prefix>
           <num>473</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.73] </dc-code-parallel-citation>
+          <heading>NOTES REDEEMABLE PRIOR TO MATURITY</heading>
           <text>No notes issued pursuant to this part shall be made payable on demand, but any note may be made subject to redemption prior to maturity on such notice and at such time as may be stated in the note.</text>
-          <text>SALES OF NOTES</text>
         </level>
         <level type="toc">
           <prefix>Section</prefix>
           <num>474</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.74] </dc-code-parallel-citation>
+          <heading>SALES OF NOTES</heading>
           <text>All notes issued pursuant to this part may be sold at not less than par and accrued interest at private sale without previous advertising.</text>
-          <text>BOND ANTICIPATION NOTES</text>
         </level>
         <level type="toc">
           <prefix>Section</prefix>
           <num>475</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.75] </dc-code-parallel-citation>
-          <heading>AUTHORIZING ISSUANCE.</heading>
+          <heading>BOND ANTICIPATION NOTES</heading>
+          <text>AUTHORIZING ISSUANCE.</text>
           <level>
             <num>(1)</num>
             <heading>IN GENERAL.</heading>
@@ -2524,29 +2524,29 @@
         <num>3</num>
         <heading>Payment of Bonds and Notes</heading>
         <text>Subpart 3 -- Payment of Bonds and Notes</text>
-        <text>SPECIAL TAX</text>
         <level type="toc">
           <prefix>Section</prefix>
           <num>481</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.81] </dc-code-parallel-citation>
+          <heading>SPECIAL TAX</heading>
           <text>Any act of the Council authorizing the issuance of general obligation bonds under section 461(a) [D.C. Official Code &#xA7; 1-204.61(a)] shall provide for the annual levy of a special tax or charge, if the Council determines that such tax or charge is necessary. Such tax or charge shall be levied, without limitation as to rate or amount, in amounts which together with other District revenues available and applicable will be sufficient to pay the principal of and interest on such general obligation bonds as they become due and payable. Such tax or charge shall be levied and collected at the same time and in the same manner as other District taxes are levied and collected, and when collected shall be set aside in a separate debt service fund and irrevocably dedicated to the payment of such principal and interest.</text>
           <level>
             <num>(b)</num>
             <text>The Comptroller General of the United States shall make annual audits of the amounts set aside and deposited in each debt service fund pursuant to subsection (a) [of this section].</text>
-            <text>FULL FAITH AND CREDIT OF THE DISTRICT</text>
           </level>
         </level>
         <level type="toc">
           <prefix>Section</prefix>
           <num>482</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; ' 1-204.82] </dc-code-parallel-citation>
+          <heading>FULL FAITH AND CREDIT OF THE DISTRICT</heading>
           <text>The full faith and credit of the District is pledged for the payment of the principal of and interest on any general obligation bond or note issued under section 461(a), section 471(a), or section 472(a) [D.C. Official Code &#xA7; 1-204.61(a), ' 1-204.71(a), or ' 1-204.72(a)], whether or not such pledge is stated in such bond or note or in the act authorizing the issuance of such bond or note.</text>
-          <text>PAYMENT OF THE GENERAL OBLIGATION BONDS AND NOTES</text>
         </level>
         <level type="toc">
           <prefix>Section</prefix>
           <num>483</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.83] </dc-code-parallel-citation>
+          <heading>PAYMENT OF THE GENERAL OBLIGATION BONDS AND NOTES</heading>
           <text>The Council shall provide in each annual budget for the District of Columbia government for a fiscal year adopted by the Council pursuant to section 446 [D.C. Official Code &#xA7; 1-204.46] sufficient funds to pay the principal of and interest on all general obligation bonds or notes issued under section 461(a), section 471(a), or section 472(a) [D.C. Official Code &#xA7; 1-204.61(a), ' 1-204.71(a), or ' 1-204.72(a)] becoming due and payable during such fiscal year.</text>
           <level>
             <num>(b)</num>
@@ -2583,11 +2583,11 @@
         <num>4</num>
         <heading>Full Faith and Credit of the Unites States</heading>
         <text>Subpart 4 -- Full Faith and Credit of the Unites States</text>
-        <text>FULL FAITH AND CREDIT OF UNITED STATES NOT PLEDGED</text>
         <level type="toc">
           <prefix>Section</prefix>
           <num>484</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.84] </dc-code-parallel-citation>
+          <heading>FULL FAITH AND CREDIT OF UNITED STATES NOT PLEDGED</heading>
           <text>The full faith and credit of the United States is not pledged for the payment of any principal of or interest on any bond, note, or other obligation issued by the District under this part. The United States is not responsible or liable for the payment of any principal of or interest on any bond, note, or other obligation issued by the District under this part.</text>
         </level>
       </level>
@@ -2597,37 +2597,37 @@
         <heading>Tax Exemptions; Legal Investment; Water Pollution;</heading>
         <text>Subpart 5 -- Tax Exemptions; Legal Investment; Water Pollution;</text>
         <text>Reservoirs; Metro Contributions; and Revenue Bonds</text>
-        <text>TAX EXEMPTION</text>
         <level type="toc">
           <prefix>Section</prefix>
           <num>485</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.85] </dc-code-parallel-citation>
+          <heading>TAX EXEMPTION</heading>
           <text>Bonds and notes issued by the Council pursuant to this title and the interest thereon shall be exempt from all federal and District taxation except estate, inheritance, and gift taxes.</text>
-          <text>LEGAL INVESTMENT</text>
         </level>
         <level type="toc">
           <prefix>Section</prefix>
           <num>486</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; ' 1-204.86] </dc-code-parallel-citation>
+          <heading>LEGAL INVESTMENT</heading>
           <text>Notwithstanding any restriction on the investment of funds by fiduciaries contained in any other law, all domestic insurance companies, domestic insurance associations, executors, administrators, guardians, trustees, and other fiduciaries within the District may legally invest any sinking funds, moneys, trust funds, or other funds belonging to them or under or within their control in any bonds issued pursuant to this title, it being the purpose of this section to authorize the investment in such bonds or notes of all sinking, insurance, retirement, compensation, pension, and trust funds. National banking associations are</text>
           <text>authorized to deal in, underwrite, purchase and sell, for their own accounts or for the accounts of customers, bonds and notes issued by the Council to the same extent as national banking associations are authorized by paragraph seven of section 5136 of the Revised Statutes (12 U.S.C. 24), to deal in, underwrite, purchase and sell obligations of the United States, states, or political subdivisions thereof. All federal building and loan associations and federal savings and loan associations; and banks, trust companies, building and loan associations, and savings and loan associations, domiciled in the District, may purchase, sell, underwrite, and deal in, for their own account or for the account of others, all bonds or notes issued pursuant to this title. Nothing contained in this section shall be construed as relieving any person, firm, association, or corporation from any duty of exercising due and reasonable care in selecting securities for purchase or investment.</text>
-          <text>WATER POLLUTION</text>
         </level>
         <level type="toc">
           <prefix>Section</prefix>
           <num>487</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7;' 1-204.87] </dc-code-parallel-citation>
+          <heading>WATER POLLUTION</heading>
           <text>The Mayor shall annually estimate the amount of the District's principal and interest expense which is required to service District obligations attributable to the Maryland and Virginia pro rata share of District sanitary sewage water works and other water pollution projects which provide service to the local jurisdictions in those states. Such amounts as determined by the Mayor pursuant to the agreements described in subsection (b) [of this section] shall be used to exclude the Maryland and Virginia share of pollution projects cost from the limitation on the District's capital project obligations as provided in section 603(b) [D.C. Official Code &#xA7; 1-206.03(b)].</text>
           <level>
             <num>(b)</num>
             <text>The Mayor shall enter into agreements with the states and local jurisdictions concerned for annual payments to the District of rates and charges for waste treatment services in accordance with the use and benefits made and derived from the operation of the said waste treatment facilities. Each such agreement shall require that the estimated amount of such rates and charges will be paid in advance, subject to adjustment after each year. Such rates and charges shall be sufficient to cover the cost of construction, interest on capital, operation and maintenance, and the necessary replacement of equipment during the useful life of the facility.</text>
-            <text>COST OF RESERVOIRS ON POTOMAC RIVER</text>
           </level>
         </level>
         <level type="toc">
           <prefix>Section</prefix>
           <num>488</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.88] </dc-code-parallel-citation>
+          <heading>COST OF RESERVOIRS ON POTOMAC RIVER</heading>
           <text>The Mayor is authorized to contract with the United States, any state in the Potomac River basin, any agency or political subdivision thereof, and any other competent state or local authority, with respect to the payment by the District to the United States, either directly or indirectly, of the District's equitable share of any part or parts of the non-federal portion of the costs of any reservoirs authorized by the Congress for construction on the Potomac River or any of its tributaries. Every such contract may contain such provisions as the Mayor may deem necessary or appropriate.</text>
           <level>
             <num>(b)</num>
@@ -2637,20 +2637,20 @@
             <num>(c)</num>
             <text>There are hereby authorized to be appropriated such sums as may be necessary to</text>
             <text>carry out the purposes of this section.</text>
-            <text>DISTRICT'S CONTRIBUTIONS TO THE WASHINGTON METROPOLITAN AREA TRANSIT AUTHORITY</text>
           </level>
         </level>
         <level type="toc">
           <prefix>Section</prefix>
           <num>489</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.89] </dc-code-parallel-citation>
+          <heading>DISTRICT'S CONTRIBUTIONS TO THE WASHINGTON METROPOLITAN AREA TRANSIT AUTHORITY</heading>
           <text>Notwithstanding any provision of law to the contrary, beginning with fiscal year 1976 the District share of the cost of the Adopted Regional System described in this National Capital Transportation Act of 1969 (83 Stat. 320), may be payable from the proceeds of the sale of District general obligation bonds issued pursuant to this title.</text>
-          <text>REVENUE BONDS AND OTHER OBLIGATIONS</text>
         </level>
         <level type="toc">
           <prefix>Section</prefix>
           <num>SEC. 490</num>
           <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.90] </dc-code-parallel-citation>
+          <heading>REVENUE BONDS AND OTHER OBLIGATIONS</heading>
           <text>Subject to paragraph (2) [of this subsection], the Council may by act or by resolution authorize the issuance of taxable and tax-exempt revenue bonds, notes, or other obligations to borrow money to finance, refinance, or reimburse and to assist in the financing, refinancing, or reimbursing of or for capital projects and other undertakings by the District or by any District instrumentality, or on behalf of any qualified applicant, including capital projects or undertakings in the areas of housing; health facilities; transit and utility facilities; manufacturing; sports, convention, and entertainment facilities; recreation, tourism and hospitality facilities; facilities to house and equip operations of the District government or its instrumentalities; public infrastructure development and redevelopment; elementary, secondary and college and university facilities; educational programs which provide loans for the payment of educational expenses for or on behalf of students; facilities used to house and equip operations related to the study, development, application, or production of innovative commercial or industrial technologies and social services; water and sewer facilities (as defined in paragraph (5) [of this subsection]); pollution control facilities; solid and hazardous waste disposal facilities; parking facilities, industrial and commercial development; authorized capital expenditures of the District; and any other property or project that will, as determined by the Council, contribute to the health, education, safety, or welfare, of, or the creation or preservation of jobs for, residents of the District, or to economic development of the District, and any facilities or property, real or personal, used in connection with or supplementing any of the foregoing; lease-purchase financing of any of the foregoing facilities or property; and any costs related to the issuance, carrying, security, liquidity or credit enhancement of or for revenue bonds, notes, or other obligations, including, capitalized interest and reserves, and the costs of bond insurance, letters of credit, and guaranteed investment, forward purchase, remarketing, auction, and swap agreements. Any such financing, refinancing, or reimbursement may be effected by loans made directly or indirectly to any individual or legal entity, by the purchase of any mortgage, note, or other security, or by the purchase, lease, or sale of any property.</text>
           <level>
             <num>(2)</num>
@@ -2907,20 +2907,20 @@
       <num>F</num>
       <heading>INDEPENDENT AGENCIES AND AUTHORITIES</heading>
       <text>PART F -- INDEPENDENT AGENCIES AND AUTHORITIES</text>
-      <text>BOARD OF ELECTIONS</text>
       <level type="toc">
         <prefix>Section</prefix>
         <num>491</num>
+        <heading>BOARD OF ELECTIONS</heading>
         <text>[Amendment to D.C. Official Code &#xA7; 1-1001.03] Section 3 of the District of Columbia Elections Act (D.C. Official Code &#xA7; 1-1001.03) is amended to read as follows:</text>
         <text>"SEC. 3. (a) There is created a District of Columbia Board of Elections and Ethics (hereafter in this subchapter referred to as the 'Board'), to be composed of three members, no more than two of whom shall be of the same political party, appointed by the Mayor, with the advice and consent of the Council. Members shall be appointed to serve for terms of three years, except the members first appointed under this subchapter. One member shall be appointed to serve for a one-year term, one member shall be appointed to serve for a two-year term, and one member shall be appointed to serve for a three-year term, as designated by the Mayor.</text>
         <text>"(b) Any person appointed to fill a vacancy on the Board shall be appointed only for the unexpired term of the member whose vacancy he or she is filling.</text>
         <text>"(c) A member may be reappointed, and, if not reappointed, the member shall serve until his successor has been appointed and qualifies.</text>
         <text>"(d) The Mayor shall, from time to time, designate the Chairman of the Board."[.]</text>
-        <text>ZONING COMMISSION</text>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>492</num>
+        <heading>ZONING COMMISSION</heading>
         <text>[Amendment to ' 1 of the Act of March 1, 1920 (D.C. Official Code &#xA7; 621.01)].</text>
         <level>
           <num>(b)(1)</num>
@@ -2928,66 +2928,60 @@
           <level>
             <num>(2)</num>
             <text>[Amendment to ' 5 of the Act of June 20, 1938 (D.C. Official Code &#xA7; 6-641.05)].</text>
-            <text>PUBLIC SERVICE COMMISSION</text>
           </level>
         </level>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>493</num>
+        <heading>PUBLIC SERVICE COMMISSION</heading>
         <text>[D.C. Official Code &#xA7; 1-204.93] There shall be a Public Service Commission whose function shall be to insure that every public utility doing business within the District of Columbia is required to furnish service and facilities reasonably safe and adequate and in all respects just and reasonable. The charge made by any such public utility for any facility or services furnished, or rendered, or to be furnished or rendered, shall be reasonable, just, and nondiscriminatory. Every unjust or unreasonable or discriminating charge for such facility or service is prohibited and is hereby declared unlawful.</text>
         <level>
           <num>(b)</num>
           <text>[Amendment to par. 97(a) of ' 8 of the Act of March 4, 2913 (D.C. Official Code &#xA7; 34-801)].</text>
-          <text>ARMORY BOARD</text>
         </level>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>494</num>
+        <heading>ARMORY BOARD</heading>
         <text>[Amendment to ' 2 of the Act of June 4, 1948 (D.C. Official Code &#xA7; 3-302)].</text>
-        <text>BOARD OF EDUCATION</text>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>495</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.95] </dc-code-parallel-citation>
+        <heading>BOARD OF EDUCATION</heading>
         <text>[Repealed.].</text>
-        <text>INDEPENDENT FINANCIAL MANAGEMENT, PERSONNEL, AND PROCUREMENT AUTHORITY OF DISTRICT OF COLUMBIA WATER AND SEWER AUTHORITY</text>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>496</num>
+        <heading>INDEPENDENT FINANCIAL MANAGEMENT, PERSONNEL, AND PROCUREMENT AUTHORITY OF DISTRICT OF COLUMBIA WATER AND SEWER AUTHORITY</heading>
         <text>FINANCIAL MANAGEMENT, PERSONNEL, AND PROCUREMENT AUTHORITY. &#x2013;  Notwithstanding any other provision of this Act [this chapter] or any District of Columbia law, the financial management, personnel, and procurement functions and responsibilities of the District of Columbia Water and Sewer Authority shall be established exclusively pursuant to rules and regulations adopted by its Board of Directors. Nothing in the previous sentence may be construed to affect the application to the District of Columbia Water and Sewer Authority of sections 445A, 451(d), 453(c), or 490(g) [' 1-204.45a, ' 1-204.51(d), ' 1-204.53(c), or ' 1-204.90(g)].</text>
-        <level>
-          <num>(b)</num>
-          <text>CONSISTENCY WITH EXISTING AUTHORIZING LAW. &#x2013;  The rules and regulations adopted by the Board of Directors of the District of Columbia Water and Sewer Authority to establish the financial management, personnel, and procurement functions and responsibilities of the Authority shall be consistent with the Water and Sewer Authority Establishment and Department of Public Works Reorganization Act of 1996 [D.C. Official Code &#xA7; 34-2201.01 passim], as such Act is in effect as of January 1, 2008.</text>
-        </level>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>___</num>
+        <heading>CONSISTENCY WITH EXISTING AUTHORIZING LAW. &#x2013;  The rules and regulations adopted by the Board of Directors of the District of Columbia Water and Sewer Authority to establish the financial management, personnel, and procurement functions and responsibilities of the Authority shall be consistent with the Water and Sewer Authority Establishment and Department of Public Works Reorganization Act of 1996 [D.C. Official Code &#xA7; 34-2201.01 passim], as such Act is in effect as of January 1, 2008.</heading>
         <text>-- INITIATIVES, REFERENDUMS, AND RECALLS</text>
-        <text>Initiative and Referendum</text>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>1</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.101] </dc-code-parallel-citation>
+        <heading>Initiative and Referendum</heading>
         <text>Definitions</text>
         <level>
           <num>(a)</num>
           <text>The term "initiative" means the process by which the electors of the District of Columbia may propose laws (except laws appropriating funds) and present such proposed laws directly to the registered qualified electors of the District of Columbia for their approval or disapproval.</text>
-        </level>
-        <level>
-          <num>(b)</num>
-          <text>The term "referendum" means the process by which the registered qualified electors of the District of Columbia may suspend acts of the Council of the District of Columbia (except emergency acts, acts levying taxes, or acts appropriating funds for the general operation budget) until such acts have been presented to the registered qualified electors of the District of Columbia for their approval or rejection.</text>
         </level>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>2</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.102] </dc-code-parallel-citation>
+        <heading>The term "referendum" means the process by which the registered qualified electors of the District of Columbia may suspend acts of the Council of the District of Columbia (except emergency acts, acts levying taxes, or acts appropriating funds for the general operation budget) until such acts have been presented to the registered qualified electors of the District of Columbia for their approval or rejection.</heading>
         <text>Process</text>
         <level>
           <num>(a)</num>
@@ -2997,16 +2991,13 @@
         <level>
           <num>(b) (1)</num>
           <text>Upon the presentation of a petition for a referendum to the District of Columbia Board of Elections and Ethics [Board of Elections] as provided in this section, the District of Columbia Board of Elections and Ethics [Board of Elections] shall notify the appropriate custodian of the act of the Council of the District of Columbia (either the President of the United States or the President of the Senate and the Speaker of the House of Representatives) as provided in sections 404 and 446 of the Home Rule Act [D.C. Official Code &#xA7;' 1-204.04 and 1-204.46] and the President of the United States or the President of the Senate and the Speaker of the House of Representatives, shall, as is appropriate, return such act or portion of such act to the Chairman of the Council of the District of Columbia. No further action may be taken upon such act or portion of such act until after a referendum election is held.</text>
-          <level>
-            <num>(2)</num>
-            <text>No act is subject to referendum if it has become law according to the provisions of section 404 of the Home Rule Act [D.C. Official Code &#xA7; 1-204.04].</text>
-          </level>
         </level>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>3</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.103] </dc-code-parallel-citation>
+        <heading>No act is subject to referendum if it has become law according to the provisions of section 404 of the Home Rule Act [D.C. Official Code &#xA7; 1-204.04].</heading>
         <text>[Submission of measure at election] The District of Columbia Board of Elections and Ethics [Board of Elections] shall submit an initiative measure without alteration at the next general, special, or primary election held at least ninety (90) days after the measure is received. The District of Columbia Board of Elections and Ethics [Board of Elections] shall hold an election on a referendum measure within one hundred and fourteen (114) days of its receipt of a petition as provided in section 2 of this act [D.C. Official Code &#xA7; 1-282]. If a previously scheduled general, primary, or special election will occur between fifty-four (54) and one hundred and fourteen (114) days of its receipt of a petition as provided in section 2 of this act [D.C. Official Code &#xA7; 1-282], the District of Columbia Board of Elections and Ethics [Board of Elections] may present the referendum at that election.</text>
       </level>
       <level type="toc">
@@ -3026,19 +3017,19 @@
         <num>6</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.106] </dc-code-parallel-citation>
         <text>[Short title and summary] The District of</text>
-        <text>Columbia Board of Elections and Ethics [Board of Elections] shall be empowered to propose a short title and summary of the initiative and referendum matter which accurately reflects the intent and meaning of the proposed referendum or initiative. Any citizen may petition the Superior Court of the District of Columbia no later than thirty (30) days prior to the election at which the initiative or referendum will be held for a writ in the nature of mandamus to correct any inaccurate short title and summary by the District of Columbia Board of Elections and Ethics [Board of Elections] and to mandate that Board to properly state the summary of the initiative or referendum measure.</text>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>7</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.107] </dc-code-parallel-citation>
+        <heading>Columbia Board of Elections and Ethics [Board of Elections] shall be empowered to propose a short title and summary of the initiative and referendum matter which accurately reflects the intent and meaning of the proposed referendum or initiative. Any citizen may petition the Superior Court of the District of Columbia no later than thirty (30) days prior to the election at which the initiative or referendum will be held for a writ in the nature of mandamus to correct any inaccurate short title and summary by the District of Columbia Board of Elections and Ethics [Board of Elections] and to mandate that Board to properly state the summary of the initiative or referendum measure.</heading>
         <text>[Adoption of acts to carry out subchapter] The Council of the District of Columbia shall adopt such acts as are necessary to carry out the purpose of this subchapter within one hundred eighty (180) days of the effective date of this Amendment [October 27, 1978]. Neither a petition initiating an initiative nor a referendum may be presented to the District of Columbia Board of Elections and Ethics [Board of Elections] prior to October 1, 1978.</text>
-        <text>RECALL OF ELECTED PUBLIC OFFICIALS</text>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>1</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-204.111] </dc-code-parallel-citation>
+        <heading>RECALL OF ELECTED PUBLIC OFFICIALS</heading>
         <text>[Recall defined] The term "recall" means the process by which the qualified electors of the District of Columbia may call for the holding of an election to remove or retain an elected official of the District of Columbia (except the Delegate to Congress for the District of Columbia) prior to the expiration of his or her term.</text>
       </level>
       <level type="toc">
@@ -3072,10 +3063,10 @@
     <num>V</num>
     <heading>FEDERAL PAYMENT [Repealed]</heading>
     <text>TITLE V -- FEDERAL PAYMENT [Repealed]</text>
-    <text>DUTIES OF THE MAYOR, COUNCIL, AND FEDERAL OFFICE OF MANAGEMENT AND BUDGET</text>
     <level type="toc">
       <prefix>Section</prefix>
       <num>501</num>
+      <heading>DUTIES OF THE MAYOR, COUNCIL, AND FEDERAL OFFICE OF MANAGEMENT AND BUDGET</heading>
       <text>[Repealed by section 11601(a) of the National Capital Revitalization and Self-Government Improvement Act of 1997, approved August 5, 1997 (P.L. 105-7; 111 Stat. 14)].</text>
     </level>
     <level type="toc">
@@ -3089,19 +3080,19 @@
     <num>VI</num>
     <heading>RESERVATION OF CONGRESSIONAL AUTHORITY</heading>
     <text>TITLE VI -- RESERVATION OF CONGRESSIONAL AUTHORITY</text>
-    <text>RETENTION OF CONSTITUTIONAL AUTHORITY</text>
     <level type="toc">
       <prefix>Section</prefix>
       <num>601</num>
       <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-206.01] </dc-code-parallel-citation>
+      <heading>RETENTION OF CONSTITUTIONAL AUTHORITY</heading>
       <text>Notwithstanding any other provision of this Act, the Congress of the United States reserves the right, at any time, to exercise its constitutional authority as legislature for the District, by enacting legislation for the District on any subject, whether within or without the scope of legislative power granted to the Council by this Act, including legislation to amend or repeal any law in force in the District prior to or after enactment of this Act and any act passed by the Council.</text>
-      <text>LIMITATIONS ON THE COUNCIL</text>
     </level>
     <level type="toc">
       <prefix>Section</prefix>
       <num>602</num>
       <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-1-206.02] </dc-code-parallel-citation>
-      <heading>The Council shall have no authority to pass any act contrary to the provisions of this Act except as specifically provided in this Act, or to</heading>
+      <heading>LIMITATIONS ON THE COUNCIL</heading>
+      <text>The Council shall have no authority to pass any act contrary to the provisions of this Act except as specifically provided in this Act, or to</text>
       <level>
         <num>(1)</num>
         <text>impose any tax on property of the United States or any of the several states;</text>
@@ -3159,13 +3150,13 @@
       <level>
         <num>(3)</num>
         <text>The Council shall submit with each Act transmitted under this subsection an estimate of the costs which will be incurred by the District of Columbia as a result of the enactment of the Act in each of the first 4 fiscal years for which the Act is in effect, together with a statement of the basis for such estimate.</text>
-        <text>BUDGET PROCESS; LIMITATIONS ON BORROWING AND SPENDING</text>
       </level>
     </level>
     <level type="toc">
       <prefix>Section</prefix>
       <num>603</num>
       <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-206.03] </dc-code-parallel-citation>
+      <heading>BUDGET PROCESS; LIMITATIONS ON BORROWING AND SPENDING</heading>
       <text>Nothing in this act shall be construed as making any change in existing law, regulation, or basic procedure and practice relating to the respective roles of the Congress, the President, the federal Office of Management and Budget, and the Comptroller General of the United States in the preparation, review, submission, examination, authorization, and appropriation of the total budget of the District of Columbia government.</text>
       <level>
         <num>(b)(1)</num>
@@ -3220,7 +3211,6 @@
         <level>
           <num>(2)</num>
           <text>the Council may not approve, and the Mayor may not forward to the President, any budget which is not consistent with the financial plan and budget established for the fiscal year under subtitle A of title II of such Act [part &#x2013;  of subchapter VII of Chapter 3 of Title 47 of the D.C. Official Code].</text>
-          <text>CONGRESSIONAL ACTION ON CERTAIN DISTRICT MATTERS</text>
         </level>
       </level>
     </level>
@@ -3228,7 +3218,8 @@
       <prefix>Section</prefix>
       <num>604</num>
       <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-206.04] </dc-code-parallel-citation>
-      <heading>This section is enacted by Congress</heading>
+      <heading>CONGRESSIONAL ACTION ON CERTAIN DISTRICT MATTERS</heading>
+      <text>This section is enacted by Congress</text>
       <level>
         <num>(1)</num>
         <text>as an exercise of the rulemaking power of the Senate and the House of Representatives, respectively, and as such these provisions are deemed a part of the rule of each House, respectively, but applicable only with respect to the procedure to be followed in that House in the case of resolutions described by this section; and they supersede other rules only to the extent that they are inconsistent therewith; and</text>
@@ -3285,11 +3276,11 @@
       <num>A</num>
       <heading>CHARTER REFERENDUM</heading>
       <text>PART A -- CHARTER REFERENDUM</text>
-      <text>REFERENDUM</text>
       <level type="toc">
         <prefix>Section</prefix>
         <num>701</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-207.01] </dc-code-parallel-citation>
+        <heading>REFERENDUM</heading>
         <text>On a date to be fixed by the Board of Elections, not more than five months after the date of enactment of this Act, a referendum (in this part referred to as the "charter referendum") shall be conducted to determine whether the registered qualified electors of the District accept the charter set forth in title IV of this Act [District Charter].</text>
       </level>
       <level type="toc">
@@ -3300,13 +3291,13 @@
         <level>
           <num>(b)</num>
           <text>Notwithstanding the fact that such section does not otherwise take effect unless the charter is accepted under this title, the applicable provision of part E of title VII of this Act [D.C. Official Code &#xA7;' 1-207.51 and 1-207.52] shall govern the Board of Elections in the performance of</text>
-          <text>its duties under this Act.</text>
         </level>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>703</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-207.03] </dc-code-parallel-citation>
+        <heading>its duties under this Act.</heading>
         <text>The charter referendum ballot shall contain the following, with a blank space appropriately filled:</text>
         <text>"The District of Columbia Self-Government and Governmental Reorganization Act, enacted __________, proposes to establish a charter for the governance of the District of Columbia, but provides that the charter shall take effect only if it is accepted by a majority of the registered qualified voters of the District voting on this issue.</text>
         <text>"Indicate in one of the squares provided below whether you are for or against the charter.</text>
@@ -3324,42 +3315,39 @@
           <num>(c)</num>
           <text>Not less than five days before the date of the charter referendum, the Board of Elections shall mail to each registered qualified elector (1) a sample of the charter referendum ballot, and (2) information showing the polling place of such elector and the date and hours of voting.</text>
         </level>
-        <level>
-          <num>(d)</num>
-          <text>Not less than one day before the charter referendum, the Board of Elections shall publish, in one or more newspapers of general circulation published in the District, a list of the polling places and the date and hours of voting.</text>
-        </level>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>704</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-207.04] </dc-code-parallel-citation>
+        <heading>Not less than one day before the charter referendum, the Board of Elections shall publish, in one or more newspapers of general circulation published in the District, a list of the polling places and the date and hours of voting.</heading>
         <text>If a majority of the registered qualified electors voting in the charter referendum vote for the charter, the charter shall be considered accepted as of the time the Board of Elections certifies the result of the charter referendum to the President of the United States, as provided in subsection (b) [of this section].</text>
         <level>
           <num>(b)</num>
           <text>The Board of Elections shall, within a reasonable time, but in no event more than thirty days after the date of the charter referendum, certify the result of the charter referendum to the President of the United States and to the Secretary of the Senate and the Clerk of the House of Representatives.</text>
           <text>Part &#x2013;  -- SUCCESSION IN GOVERNMENT</text>
-          <text>ABOLISHMENT OF EXISTING GOVERNMENT AND TRANSFER OF FUNCTIONS</text>
         </level>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>711</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-207.11] </dc-code-parallel-citation>
+        <heading>ABOLISHMENT OF EXISTING GOVERNMENT AND TRANSFER OF FUNCTIONS</heading>
         <text>The District of Columbia Council, the Offices of Chairman of the District of Columbia Council, Vice Chairman of the District of Columbia Council, and the seven other members of the District of Columbia Council, and the Offices of the</text>
         <text>Commissioner of the District of Columbia and Assistant to the Commissioner of the District of Columbia, as established by Reorganization Plan No. 3 of 1967, are abolished as of noon January 2, 1975. This subsection [section] shall not be construed to reinstate any governmental body or office in the District abolished in said plan or otherwise heretofore.</text>
-        <text>CERTAIN DELEGATED FUNCTIONS AND FUNCTIONS OF CERTAIN AGENCIES</text>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>712</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-207.12] </dc-code-parallel-citation>
+        <heading>CERTAIN DELEGATED FUNCTIONS AND FUNCTIONS OF CERTAIN AGENCIES</heading>
         <text>No function of the District of Columbia Council (established under Reorganization Plan No. 3 of 1967) or of the Commissioner of the District of Columbia which such District of Columbia Council or Commissioner has delegated to an officer, employee, or agency (including any body of or under such agency) of the District, nor any function now vested pursuant to section 501 of Reorganization Plan No. 3 of 1967 in the District Public Service Commission, Zoning Advisory Council, Board of Zoning Adjustment, Office of the Recorder of Deeds, or Armory Board, or in any officer, employee, or body of or under such agency, shall be considered as a function transferred to the Council pursuant to section 404(a) of this Act [D.C. Official Code &#xA7; 1-204.04(a)]. Each such function is hereby transferred to the officer, employee, or agency (including any body of or under such agency), to whom or to which it was delegated, or in whom or in which it has remained vested, until the Mayor or Council established under this Act, or both, pursuant to the powers herein granted, shall revoke, modify, or transfer such delegation or vesting.</text>
-        <text>TRANSFER OF PERSONNEL, PROPERTY, AND FUNDS</text>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>713</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-207.13] </dc-code-parallel-citation>
+        <heading>TRANSFER OF PERSONNEL, PROPERTY, AND FUNDS</heading>
         <text>In each case of the transfer, by any provision of this Act, of functions to the Council, to the Mayor, or to any agency or officer, there are hereby authorized to be transferred (as of the time of such transfer of functions) to the Council, to the Mayor, to such agency, or to the agency of which such officer is the head, for use in the administration of the functions of the Council or such agency or officer, the personnel (except the Commissioner of the District of Columbia, the Assistant to the Commissioner, the Chairman of the District of Columbia Council, the Vice Chairman of the District of Columbia Council, the other members thereof, all of whose officers are abolished by this Act), property, records, and unexpended balances of appropriations and other funds which relate primarily to the functions so transferred.</text>
         <level>
           <num>(b)</num>
@@ -3382,13 +3370,13 @@
         <level>
           <num>(d)</num>
           <text>No officer or employee shall, by reason of his transfer to the District government under this Act or his separation from service under this Act, be deprived of any civil service rights, benefits, and privileges held by him prior to such transfer or any right of appeal or review he may have by reason of his separation from service.</text>
-          <text>EXISTING STATUTES, REGULATIONS, AND OTHER ACTIONS.</text>
         </level>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>714</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-207.14] </dc-code-parallel-citation>
+        <heading>EXISTING STATUTES, REGULATIONS, AND OTHER ACTIONS.</heading>
         <text>Any statute, regulation, or other action in respect of (and any regulation or other action issued, made, taken, or granted by) any officer or agency from which any function is transferred by this Act shall, except to the extent modified or made inapplicable by or under authority of law, continue in effect as if such transfer had not been made; but after such transfer, references in such statute, regulation, or other action to an officer or agency from which a transfer is made by this Act shall be held and considered to refer to the officer or agency to which the transfer is made.</text>
         <level>
           <num>(b)</num>
@@ -3397,31 +3385,31 @@
         <level>
           <num>(c)</num>
           <text>Unless otherwise specifically provided in this Act, nothing contained in this Act shall be construed as affecting the applicability to the District government of personnel legislation relating to the District government until such time as the Council may otherwise elect to provide equal or equivalent coverage.</text>
-          <text>PENDING ACTIONS AND PROCEEDINGS</text>
         </level>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>715</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-207.15] </dc-code-parallel-citation>
+        <heading>PENDING ACTIONS AND PROCEEDINGS</heading>
         <text>No suit, action, or other judicial proceeding lawfully commenced by or against any officer or agency in his or its official capacity or in relation to the exercise of his or its official functions, shall abate by reason of the taking effect of any provision of this Act; but the court, unless it determines that the survival of such suit, action, or other proceedings is not necessary for purposes of settlement of the questions involved, shall allow the same to be maintained, with such substitutions as to parties as are appropriate.</text>
         <level>
           <num>(b)</num>
           <text>No administrative action or proceeding lawfully commenced shall abate solely by reason of the taking effect of any provision of this Act, but such action or proceeding shall be continued with such substitutions as to parties and officers or agencies as are appropriate.</text>
-          <text>VACANCIES RESULTING FROM ABOLISHMENT OF OFFICES OF COMMISSIONER AND ASSISTANT TO THE COMMISSIONER</text>
         </level>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>716</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-207.16] </dc-code-parallel-citation>
+        <heading>VACANCIES RESULTING FROM ABOLISHMENT OF OFFICES OF COMMISSIONER AND ASSISTANT TO THE COMMISSIONER</heading>
         <text>Until the 1st day of July next after the first Mayor takes office under this Act no vacancy occurring in any District agency by reason of section 711 [D.C. Official Code &#xA7; 1-207.11], abolishing the offices of Commissioner of the District of Columbia and Assistant to the Commissioner, shall affect the power of the remaining members of such agency to exercise its functions; but such agency may take action only if a majority of the members holding office vote in favor of it.</text>
-        <text>STATUS OF THE DISTRICT</text>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>717</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-207.17] </dc-code-parallel-citation>
+        <heading>STATUS OF THE DISTRICT</heading>
         <text>All of the territory constituting the permanent seat of the Government of the United States shall continue to be designated as the District of Columbia. The District of Columbia shall remain and continue a body corporate, as provided in section 2 of the Revised Statutes relating to the District (D.C. Code, sec. 1-102) [D.C. Official Code &#xA7; 1-102]. Said Corporation shall continue to be charged with all the duties, obligations, responsibilities, and liabilities, and to be vested with all of the powers, rights, privileges, immunities, and assets, respectively, imposed upon and vested in said Corporation or the Commissioner.</text>
         <level>
           <num>(b)</num>
@@ -3430,27 +3418,24 @@
         <level>
           <num>(c)</num>
           <text>Nothing contained in this section shall affect the boundary line between the District of Columbia and the Commonwealth of Virginia as the same was established or may be subsequently established under the provisions of title I of the Act of October 31, 1945 (59 Stat. 552) [An Act To establish a boundary line between the District of Columbia and the Commonwealth of Virginia, and for other purposes (P.L. 79-208)].</text>
-          <text>CONTINUATION OF DISTRICT OF COLUMBIA COURT SYSTEM</text>
         </level>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>718</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-207.18] </dc-code-parallel-citation>
+        <heading>CONTINUATION OF DISTRICT OF COLUMBIA COURT SYSTEM</heading>
         <text>The District of Columbia Court of Appeals, the Superior Court of the District of Columbia, and the District of Columbia Commission on Judicial Disabilities and Tenure shall continue as provided under the District of Columbia Court Reorganization Act of 1970 subject to the provisions of part C of title IV of this Act [District Charter] and section 602(a)(4) [D.C. Official Code &#xA7; 1-206.02(a)(4)].</text>
         <level>
           <num>(b)</num>
           <text>The term and qualifications of any judge of any District of Columbia court, and the term and qualifications of any member of the District of Columbia Commission on Judicial Disabilities and Tenure appointed prior to the effective date of title IV of this Act [January 2, 1975] shall not be affected by the provisions of part C of title IV of this Act [District Charter]. No provision of this Act shall be construed to extend the term of any such judge or member of such Commission. Judges of the District of Columbia courts and members of the District of Columbia Commission on Judicial Disabilities and Tenure appointed after the effective date of title IV of this Act [January 2, 1975] shall be appointed according to part C of such title IV [District Charter].</text>
-        </level>
-        <level>
-          <num>(c)</num>
-          <text>Nothing in this Act shall be construed to amend, repeal, or diminish the duties, rights, privileges, or benefits accruing under sections 1561 through 1571 of title 11 of the District of Columbia [Official] Code [D.C. Official Code &#xA7;' 11-1561 - 11-1571], and sections 703 and 904 of such title [D.C. Official Code &#xA7;' 11-703 - 11-904], dealing with the retirement and compensation of the judges of the District of Columbia courts.</text>
         </level>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>719</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-207.19] </dc-code-parallel-citation>
+        <heading>Nothing in this Act shall be construed to amend, repeal, or diminish the duties, rights, privileges, or benefits accruing under sections 1561 through 1571 of title 11 of the District of Columbia [Official] Code [D.C. Official Code &#xA7;' 11-1561 - 11-1571], and sections 703 and 904 of such title [D.C. Official Code &#xA7;' 11-703 - 11-904], dealing with the retirement and compensation of the judges of the District of Columbia courts.</heading>
         <text>The term of any member elected to the District of Columbia Board of Education, and the powers and duties of the Board of Education shall not be affected by the provisions of section 495 [D.C. Official Code &#xA7; 1-204.95]. No provision of such section shall be construed to extend the term of any such member or to terminate the term of any such member.</text>
       </level>
     </level>
@@ -3459,28 +3444,28 @@
       <num>C</num>
       <heading>TEMPORARY PROVISIONS</heading>
       <text>PART C -- TEMPORARY PROVISIONS</text>
-      <text>POWERS OF THE PRESIDENT DURING TRANSITIONAL PERIOD</text>
       <level type="toc">
         <prefix>Section</prefix>
         <num>721</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-207.21] </dc-code-parallel-citation>
+        <heading>POWERS OF THE PRESIDENT DURING TRANSITIONAL PERIOD</heading>
         <text>The President of the United States is hereby authorized and requested to take such action during the period following the date of the enactment of this Act and ending on the date of the first meeting of the Council, by Executive Order or otherwise, with respect to the administration of the functions of the District government, as he deems necessary to enable the Board of Elections properly to perform its function under this Act.</text>
-        <text>REIMBURSABLE APPROPRIATIONS FOR THE DISTRICT</text>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>722</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-207.22] </dc-code-parallel-citation>
+        <heading>REIMBURSABLE APPROPRIATIONS FOR THE DISTRICT</heading>
         <text>The Secretary of the Treasury is authorized to advance to the District of Columbia the sum of $750,000, out of any money in the Treasury not otherwise appropriated, for use (1) in the paying the expenses of the Board of Education (including compensation of the members thereof), and (2) in otherwise carrying into effect the provisions of this Act.</text>
         <level>
           <num>(b)</num>
           <text>The full amount expended out of the money advanced pursuant to this section shall be reimbursed to the United States, without interest, during the second fiscal year which begins after the effective date of title IV [January 2, 1975], from the general fund of the District.</text>
-          <text>INTERIM LOAN AUTHORITY</text>
         </level>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>723</num>
+        <heading>INTERIM LOAN AUTHORITY</heading>
         <text>[D.C. Official Code &#xA7; 1-207.23] The Mayor is authorized to accept loans for the District from the Treasury of the United States, and the Secretary is authorized to lend to the Mayor, such sums as the Mayor may determine are required to complete capital projects for which construction and construction services funds have been authorized or appropriated, as the case may be, by Congress prior to October 1, 1983, or the date of the enactment of the appropriation Act for the fiscal year ending September 30, 1984, for the government of the District of Columbia, whichever is later. In addition, such loans may include funds to pay the District's share of the cost of the adopted regional system specified in the National Capital Transportation Act of 1969.</text>
         <level>
           <num>(b)</num>
@@ -3494,14 +3479,14 @@
         <level>
           <num>(d)</num>
           <text>The authority contained in this section to make loans shall be effective for any fiscal year only to such extent or in such amounts as are provided in appropriations Acts.</text>
-          <text> POLITICAL PARTICIPATION IN CERTAIN ELECTIONS FIRST HELD UNDER THIS ACT</text>
         </level>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>724</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-207.24] </dc-code-parallel-citation>
-        <heading>In order to provide continuity in the government of the District of Columbia during the transition from the appointed government to the elected government provided for under this Act, no person employed by the United States or by the government of the District of Columbia shall be prohibited by reason of such employment</heading>
+        <heading>POLITICAL PARTICIPATION IN CERTAIN ELECTIONS FIRST HELD UNDER THIS ACT</heading>
+        <text>In order to provide continuity in the government of the District of Columbia during the transition from the appointed government to the elected government provided for under this Act, no person employed by the United States or by the government of the District of Columbia shall be prohibited by reason of such employment</text>
         <level>
           <num>(1)</num>
           <text>from being a candidate in the first primary election and general election held under this Act for the office of Mayor or Chairman or member of the Council of the District of Columbia provided for under title IV of this Act [District Charter], and</text>
@@ -3542,11 +3527,11 @@
       <num>D</num>
       <heading>MISCELLANEOUS</heading>
       <text>PART D -- MISCELLANEOUS</text>
-      <text>AGREEMENTS WITH UNITED STATES</text>
       <level type="toc">
         <prefix>Section</prefix>
         <num>731</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-207.31] </dc-code-parallel-citation>
+        <heading>AGREEMENTS WITH UNITED STATES</heading>
         <text>To prevent duplication and to promote efficiency and economy, an officer or employee of:</text>
         <level>
           <num>(1)</num>
@@ -3598,7 +3583,6 @@
           <level>
             <num>(d)</num>
             <text>When requested by the Director of the United States Secret Service Division, the Chief of the Metropolitan Police shall assist the Secret Service and the United States Secret Service Uniformed Division on a non-reimbursable basis in carrying out their protective duties under section 302 to title 3 and section 3056 of title 18 [of the U.S.C.].</text>
-            <text>PERSONAL INTEREST IN CONTRACTS OR TRANSACTIONS</text>
           </level>
         </level>
       </level>
@@ -3606,38 +3590,39 @@
         <prefix>Section</prefix>
         <num>732</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-207.32] </dc-code-parallel-citation>
+        <heading>PERSONAL INTEREST IN CONTRACTS OR TRANSACTIONS</heading>
         <text>Any officer or employee of the District who is convicted of a violation of section 208 of title 18, United States Code, shall forfeit his office or position.</text>
-        <text>COMPENSATION FROM MORE THAT ONE SOURCE</text>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>733</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-207.33] </dc-code-parallel-citation>
+        <heading>COMPENSATION FROM MORE THAT ONE SOURCE</heading>
         <text>Except as provided in this Act, no person shall be ineligible to serve or to receive compensation as a member of the Board of Elections because he occupies another office or position or because he receives compensation (including retirement compensation) from another source.</text>
         <level>
           <num>(b)</num>
           <text>The right to another office or position or to compensation from another source otherwise secured to such a person under the laws of the United States shall not be abridged by the fact of his service or receipt of compensation as a member of such Board, if such service does not interfere with the discharge of his duties in such other office or position.</text>
-          <text>ASSISTANCE OF THE UNITED STATES CIVIL SERVICE COMMISSION IN DEVELOPMENT OF DISTRICT MERIT SYSTEM</text>
         </level>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>734</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-207.34] </dc-code-parallel-citation>
+        <heading>ASSISTANCE OF THE UNITED STATES CIVIL SERVICE COMMISSION IN DEVELOPMENT OF DISTRICT MERIT SYSTEM</heading>
         <text>The United States Civil Service Commission is hereby authorized to advise and assist the Mayor and the Council in the further development of</text>
         <text>the merit system or systems required by section 422(3) [D.C. Official Code &#xA7; 1-204.22(3)] and the said Commission is authorized to enter into agreements with the District government to make available its registers of eligibles as a recruiting source to fill District positions as needed. The costs of any specific services furnished by the Civil Service Commission may be compensated for under the provisions of section 731 of this Act [D.C. Official Code &#xA7; 1-207.31].</text>
-        <text>REVENUE SHARING RESTRICTIONS</text>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>735</num>
+        <heading>REVENUE SHARING RESTRICTIONS</heading>
         <text>[Amendment to section 141(c) of the State and Local Fiscal Assistance Act of 1972, approved October 20, 1972 (P.L. 92-512; 86 Stat. 919)].</text>
-        <text>INDEPENDENT AUDIT</text>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>736</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-207.36] </dc-code-parallel-citation>
+        <heading>INDEPENDENT AUDIT</heading>
         <text>In addition to the audit carried out under section 455 [D.C. Official Code &#xA7; 1-204.55], the Comptroller General each year shall audit the accounts and operations of the District of Columbia government. An audit shall be carried out according to principles, under regulations, and in a way the Comptroller General prescribes. When prescribing the procedures to follow and the extent of the inspection of records, the Comptroller General shall consider generally accepted principles of auditing, including the effectiveness of accounting organizations and systems, internal audit and control, and related administrative practices.</text>
         <level>
           <num>(b)</num>
@@ -3654,13 +3639,13 @@
         <level>
           <num>(d)</num>
           <text>To carry out this section, records and property of or used by the District of Columbia government necessary to make an audit easier shall be made available to the Comptroller General. The Mayor shall provide facilities to carry out an audit.</text>
-          <text>ADJUSTMENTS</text>
         </level>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>737</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-207.37] </dc-code-parallel-citation>
+        <heading>ADJUSTMENTS</heading>
         <text>Subject to section 731 [D.C. Official Code ' 1-207.31], the Mayor, with the approval of the Council, and the Director of the Office of Management and Budget, is authorized and empowered to enter into an agreement or agreements concerning the manner and method by which amounts owed by the District to the United States, or by the United States to the District, shall be ascertained and paid.</text>
         <level>
           <num>(b)</num>
@@ -3670,13 +3655,13 @@
         <level>
           <num>(c)</num>
           <text>Each officer and employee of the District required to do so by the Council shall provide a bond with such surety and in such amount as the Council may require. The premiums for all such bonds shall be paid out of appropriations for the District.</text>
-          <text>ADVISORY NEIGHBORHOOD COMMISSIONS</text>
         </level>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>738</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-207.38] </dc-code-parallel-citation>
+        <heading>ADVISORY NEIGHBORHOOD COMMISSIONS</heading>
         <text>The Council shall by act divide the District into neighborhood commission areas and, upon receiving a petition signed by at least 5 per centum of the registered qualified electors of a neighborhood commission area, shall establish for that neighborhood an elected advisory neighborhood commission. In designating such neighborhoods, the Council shall consider natural geographic boundaries, election districts, and divisions of the District made for the purpose of administration of services.</text>
         <level>
           <num>(b)</num>
@@ -3719,13 +3704,13 @@
         <level>
           <num>(h)</num>
           <text>The foregoing provisions of this section shall take effect only if agreed to in accordance with the provisions of section 703(a) of this Act [D.C. Official Code &#xA7; 1-207.03(a)].</text>
-          <text>NATIONAL CAPITAL SERVICE AREA</text>
         </level>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>739</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-207.39] </dc-code-parallel-citation>
+        <heading>NATIONAL CAPITAL SERVICE AREA</heading>
         <text>There is established within the District of Columbia the National Capital Service Area which shall include, subject to the following provisions of this section, the principal federal monuments, the White House, the Capitol Building, the United States Supreme Court Building, and the federal executive, legislative, and judicial office buildings located adjacent to the Mall and the Capitol Building, and is more particularly described in subsection (f) [of this section].</text>
         <level>
           <num>(b)</num>
@@ -3874,13 +3859,13 @@
         <level>
           <num>(j)</num>
           <text>In no case shall any person be denied the right to vote or otherwise participate in any manner in any election in the District of Columbia solely because such person resides within the National Capital Service Area.</text>
-          <text>EMERGENCY CONTROL OF POLICE</text>
         </level>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>740</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-207.40] </dc-code-parallel-citation>
+        <heading>EMERGENCY CONTROL OF POLICE</heading>
         <text>Notwithstanding any other provision of law, whenever the President of the United States determines that special conditions of an emergency nature exist which require the use of the Metropolitan Police force for Federal purposes, he may direct the Mayor to provide him, and the Mayor shall provide, such services of the Metropolitan Police force as the President may deem necessary and appropriate. In no case, however, shall such services made available pursuant to any such direction under this subsection extend for a period in excess of forty-eight hours unless the President has, prior to the expiration of such period, notified the Chairmen and ranking minority members of the Committees on the District of Columbia of the Senate and the House of Representatives, in writing, as to the reason for such direction and the period of time during which the need for such services is likely to continue.</text>
         <level>
           <num>(b)</num>
@@ -3894,29 +3879,29 @@
         <level>
           <num>(d)</num>
           <text>Except to the extent provided for in subsection (c) of this section, no such services made available pursuant to the direction of the President pursuant to subsection (a) of this section shall extend for any period in excess of 30 days, unless the Senate and the House of Representatives enact into law a joint resolution authorizing such an extension.</text>
-          <text>HOLDING OFFICE IN THE DISTRICT</text>
         </level>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>741</num>
+        <heading>HOLDING OFFICE IN THE DISTRICT</heading>
         <text>[Repealed by section 4(c) of An Act To amend the District of Columbia Revenue Act of 1947 regarding taxability of dividends received by a corporation from insurance companies, banks, and other savings institutions, approved April 17, 1974 (P.L. 93-268; 88 Stat. 87)].</text>
-        <text>OPEN MEETINGS</text>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>742</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-207.42] </dc-code-parallel-citation>
+        <heading>OPEN MEETINGS</heading>
         <text>All meetings (including hearings) of any department, agency, board, or commission of the District government, including meetings of the Council of the District of Columbia, at which official action of any kind is taken shall be open to the public. No resolution, rule, act, regulation, or other official action shall be effective unless taken, made, or enacted at such meeting.</text>
         <level>
           <num>(b)</num>
           <text>A written transcript or a transcription shall be kept for all such meetings and shall be made available to the public during normal business hours of the District government. Copies of such written transcripts or copies of such transcriptions shall be available, upon request, to the public at reasonable cost.</text>
-          <text> TERMINATION OF THE DISTRICT'S AUTHORITY TO BORROW FROM THE TREASURY</text>
         </level>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>743</num>
+        <heading>TERMINATION OF THE DISTRICT'S AUTHORITY TO BORROW FROM THE TREASURY</heading>
         <text>[Amendment to section 1 An Act to authorize the Commissioners of the District of Columbia to borrow funds for capital improvement programs and to amend provisions of law relating to Federal Government participation in meeting costs of maintaining the National Capital City, approved June 6, 1958 (72 Stat. 183; D.C. Official Code &#xA7; 10-619)].</text>
         <level>
           <num>(b)</num>
@@ -3945,17 +3930,17 @@
       <num>E</num>
       <heading>AMENDMENTS TO THE DISTRICT OF COLUMBIA ELECTION ACT</heading>
       <text>PART E -- AMENDMENTS TO THE DISTRICT OF COLUMBIA ELECTION ACT</text>
-      <text>AMENDMENTS</text>
       <level type="toc">
         <prefix>Section</prefix>
         <num>751</num>
+        <heading>AMENDMENTS</heading>
         <text>[Amendment to the District of Columbia Election Act, approved August 12, 1955 (69 Stat. 699; D.C. Official Code &#xA7; 1-1001.01 et seq.)].</text>
-        <text>DISTRICT COUNCIL AUTHORITY OVER ELECTIONS</text>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>752</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-207.52] </dc-code-parallel-citation>
+        <heading>DISTRICT COUNCIL AUTHORITY OVER ELECTIONS</heading>
         <text>Notwithstanding any other provision of this Act or of any other law, the Council shall have authority to enact any act or resolution with respect to matters involving or relating to elections in the District.</text>
       </level>
     </level>
@@ -3964,18 +3949,18 @@
       <num>F</num>
       <heading>RULES OF CONSTRUCTION</heading>
       <text>PART F -- RULES OF CONSTRUCTION</text>
-      <text>CONSTRUCTION</text>
       <level type="toc">
         <prefix>Section</prefix>
         <num>761</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-207.61] </dc-code-parallel-citation>
+        <heading>CONSTRUCTION</heading>
         <text>To the extent that any provisions of this Act are inconsistent with the provisions of any other laws[,] the provisions of this Act shall prevail and shall be deemed to supersede the provisions of such laws.</text>
-        <text>SEVERABILITY</text>
       </level>
       <level type="toc">
         <prefix>Section</prefix>
         <num>762</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-207.62] </dc-code-parallel-citation>
+        <heading>SEVERABILITY</heading>
         <text>If any particular provision of this Act, or the application thereof to any person of circumstance, is held invalid, the remainder of this Act and the application of such provision to other persons or circumstances shall not be affected thereby.</text>
       </level>
     </level>
@@ -3984,11 +3969,11 @@
       <num>G</num>
       <heading>EFFECTIVE DATES</heading>
       <text>PART G -- EFFECTIVE DATES</text>
-      <text>EFFECTIVE DATES</text>
       <level type="toc">
         <prefix>Section</prefix>
         <num>771</num>
         <dc-code-parallel-citation>[D.C. Official Code &#xA7; 1-207.71] </dc-code-parallel-citation>
+        <heading>EFFECTIVE DATES</heading>
         <text>Titles I and V, and parts A and G, and section 722 of title VII shall take effect on the date of enactment of this Act [December 24, 1973].</text>
         <level>
           <num>(b)</num>

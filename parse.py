@@ -5,7 +5,8 @@ home_rule_act = open("source_docs/home_rule_act_july2012.txt").read()
 home_rule_act = home_rule_act.decode("utf8")
 
 # recode page numbering
-home_rule_act = re.sub(u"(\d+)\n(\u000C)", u"\n [\u000C]\n ", home_rule_act) # brackets prevent para collapse
+#home_rule_act = re.sub(u"(\d+)\n(\u000C)", u"\n [\u000C]\n ", home_rule_act) # brackets prevent para collapse
+home_rule_act = re.sub(u"(\d+)\n(\u000C)", u"\n\n", home_rule_act) # we don't care about pages, this is a bad character
 
 # incorrect encoding of en-dashes
 home_rule_act = re.sub(r" B(\s)", ur" \u2013 \1", home_rule_act)
@@ -35,12 +36,15 @@ paragraphs = paragraphs[main_start:back_start]
 
 # Process main body paragraphs
 
-paragraphs = [
+unparsed_paragraphs = [
 	{ "indent": 0,
-	  "text": p,
-	} for p in paragraphs]
+	  "text": p.strip(),
+	} for p in paragraphs if p.strip() != ""]
 
-for p in paragraphs:
+paragraphs = []
+for p in unparsed_paragraphs:
+	paragraphs.append(p)
+
 	m = re.match(r"(SEC\. \w+\.? )?(\[D\.C\. (?:Official )?Code [^\]]*\]\.? )?((?:\(\S+\)\s*)*)(?:(.*\S) --\s*)?", p["text"], re.I)
 
 	m_heading = re.match(r"(?:(TITLE|PART|Subpart)\ ([\w\-]+))\s[\s\-]*(.*)", p["text"])
@@ -60,9 +64,12 @@ for p in paragraphs:
 	# starts a new section
 	if section_num:
 		p["heading-type"] = "section"
-		p["num"] = re.sub(r"(SEC|Sec)\. (.*\S)\.", r"\2", section_num).strip()
-		p["heading"] = heading
+		p["num"] = re.sub(r"(SEC|Sec)\. (.*\S)\.", ur"\2", section_num).strip()
+		if not paragraphs[-2].get("heading-type"):
+			p["heading"] = paragraphs.pop(-2)["text"]
 		p["dc_code_cite"] = dc_code_cite
+		if heading: # not sure what this text really is
+			paragraphs.append({ "indent": 0, "text": heading })
 		continue
 
 	if paragraph_heads:
