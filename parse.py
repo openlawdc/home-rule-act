@@ -128,8 +128,7 @@ for p in paragraphs:
 		big_stack.append(p["heading-type"])
 
 		print """
-<level>
-	<type>toc</type>
+<level type="toc">
 	<prefix>%s</prefix>
 	<num>%s</num>
 """ % (p["heading-type"].title(), cgi.escape(p["num"]).encode("utf8"))

@@ -1,13 +1,11 @@
-<level>
-    <type>document</type>
+<level type="document">
     <heading>District of Columbia Home Rule Act</heading>
 
     <meta>
         <recency>amended through July 18, 2012</recency>
     </meta>
 
-    <level>
-        <type>toc</type>
+    <level type="toc">
         <heading>Cover Page</heading>
 
         <text>Public Law 93-198; 87 Stat. 774; D.C. Official Code § 1-201.01 et seq. Approved December 24, 1973</text>
@@ -53,14 +51,16 @@
 
         <text>Phil Mendelson, Chairman</text>
 
-        <table>
-            <tr><td>Yvette M. Alexander</td><td>Jack Evans</td></tr>
-            <tr><td>Marion Barry</td><td>Jim Graham</td></tr>
-            <tr><td>Muriel Bowser</td><td>Kenyan McDuffie</td></tr>
-            <tr><td>Michael A. Brown</td><td>Vincent B. Orange, Sr.</td></tr>
-            <tr><td>David A. Catania</td><td>Tommy Wells</td></tr>
-            <tr><td>Mary M. Cheh</td></tr>
-        </table>
+	<text>
+          <table>
+              <tr><td>Yvette M. Alexander</td><td>Jack Evans</td></tr>
+              <tr><td>Marion Barry</td><td>Jim Graham</td></tr>
+              <tr><td>Muriel Bowser</td><td>Kenyan McDuffie</td></tr>
+              <tr><td>Michael A. Brown</td><td>Vincent B. Orange, Sr.</td></tr>
+              <tr><td>David A. Catania</td><td>Tommy Wells</td></tr>
+              <tr><td>Mary M. Cheh</td></tr>
+          </table>
+        </text>
 
         <text>OFFICE OF THE GENERAL COUNSEL</text>
 
