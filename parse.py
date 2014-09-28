@@ -140,8 +140,8 @@ for p in paragraphs:
 	<num>%s</num>
 """ % (p["heading-type"].title(), cgi.escape(p["num"]).encode("utf8"))
 
-		if p.get("dc_code_cite"): print "\t<dc-code-parallel-citation>%s</dc-code-parallel-citation>" % cgi.escape(p["dc_code_cite"]).encode("utf8")
 		if p.get("heading"): print "\t<heading>%s</heading>" % cgi.escape(p["heading"]).encode("utf8")
+		if p.get("dc_code_cite"): print "\t<text>%s</text>" % cgi.escape(p["dc_code_cite"]).encode("utf8")
 		if p.get("text"): print "\t<text>%s</text>" % cgi.escape(p["text"]).encode("utf8")
 
 	else:
